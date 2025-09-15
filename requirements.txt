@@ -1,0 +1,4 @@
+sec-edgar-downloader==5.*
+pdfplumber==0.11.*
+pandas==2.*
+numpy==2.*
