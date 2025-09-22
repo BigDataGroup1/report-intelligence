@@ -10,6 +10,7 @@ No external image libraries needed!
          data/parsed/docling/tables/<stem>/         (individual table files as CSV/HTML)
          data/parsed/docling/figures/<stem>/        (extracted figure images)
          data/parsed/docling/pages/<stem>/          (page images for visualization)
+         data/parsed/docling/layout/<stem>/         (layout info with bounding boxes)
          data/parsed/docling/summary.csv            (per-file summary)
 
 Dependencies:
@@ -85,6 +86,7 @@ OUT_JSON = Path("data/parsed/docling/json")
 OUT_TAB  = Path("data/parsed/docling/tables")
 OUT_FIG  = Path("data/parsed/docling/figures")
 OUT_PAGE = Path("data/parsed/docling/pages")
+OUT_LAYOUT = Path("data/parsed/docling/layout")  # NEW: Layout output directory
 OUT_SUM  = Path("data/parsed/docling/summary.csv")
 
 # Image quality settings
@@ -212,6 +214,149 @@ def extract_figures(conv_res, stem: str):
     
     return picture_count
 
+def extract_layout_info(conv_res, stem: str):
+    """Extract and save layout/bounding box information"""
+    layout_dir = OUT_LAYOUT / stem
+    layout_dir.mkdir(parents=True, exist_ok=True)
+    
+    doc = conv_res.document
+    
+    # Collect all layout information
+    layout_data = {
+        "document": stem,
+        "pages": {},
+        "text_items": [],
+        "tables": [],
+        "figures": []
+    }
+    
+    # Extract page dimensions if available
+    if hasattr(doc, 'pages'):
+        for page_no, page in doc.pages.items():
+            layout_data["pages"][str(page_no)] = {
+                "page_number": page_no,
+                "width": getattr(page, 'width', None),
+                "height": getattr(page, 'height', None)
+            }
+    
+    # Extract text items with bounding boxes
+    if hasattr(doc, 'texts'):
+        for idx, text_item in enumerate(doc.texts):
+            if hasattr(text_item, 'prov') and text_item.prov:
+                for prov in text_item.prov:
+                    if hasattr(prov, 'bbox') and prov.bbox:
+                        layout_data["text_items"].append({
+                            "index": idx,
+                            "text": text_item.text if hasattr(text_item, 'text') else None,
+                            "page_no": prov.page_no,
+                            "bbox": {
+                                "left": prov.bbox.l,
+                                "top": prov.bbox.t,
+                                "right": prov.bbox.r,
+                                "bottom": prov.bbox.b,
+                                "coord_origin": prov.bbox.coord_origin if hasattr(prov.bbox, 'coord_origin') else "BOTTOMLEFT"
+                            },
+                            "type": text_item.obj_type if hasattr(text_item, 'obj_type') else "text"
+                        })
+    
+    # Extract table bounding boxes
+    if hasattr(doc, 'tables'):
+        for idx, table in enumerate(doc.tables):
+            if hasattr(table, 'prov') and table.prov:
+                for prov in table.prov:
+                    if hasattr(prov, 'bbox') and prov.bbox:
+                        layout_data["tables"].append({
+                            "index": idx,
+                            "page_no": prov.page_no,
+                            "bbox": {
+                                "left": prov.bbox.l,
+                                "top": prov.bbox.t,
+                                "right": prov.bbox.r,
+                                "bottom": prov.bbox.b,
+                                "coord_origin": prov.bbox.coord_origin if hasattr(prov.bbox, 'coord_origin') else "BOTTOMLEFT"
+                            }
+                        })
+    
+    # Extract figure/picture bounding boxes
+    if hasattr(doc, 'pictures'):
+        for idx, picture in enumerate(doc.pictures):
+            if hasattr(picture, 'prov') and picture.prov:
+                for prov in picture.prov:
+                    if hasattr(prov, 'bbox') and prov.bbox:
+                        layout_data["figures"].append({
+                            "index": idx,
+                            "page_no": prov.page_no,
+                            "bbox": {
+                                "left": prov.bbox.l,
+                                "top": prov.bbox.t,
+                                "right": prov.bbox.r,
+                                "bottom": prov.bbox.b,
+                                "coord_origin": prov.bbox.coord_origin if hasattr(prov.bbox, 'coord_origin') else "BOTTOMLEFT"
+                            }
+                        })
+    
+    # Save layout data as JSON
+    layout_json_path = layout_dir / "layout.json"
+    with open(layout_json_path, 'w', encoding='utf-8') as f:
+        json.dump(layout_data, f, indent=2, ensure_ascii=False)
+    
+    # Save layout data as CSV for easy analysis
+    rows = []
+    for item in layout_data["text_items"]:
+        rows.append({
+            "type": "text",
+            "index": item["index"],
+            "page": item["page_no"],
+            "left": item["bbox"]["left"],
+            "top": item["bbox"]["top"],
+            "right": item["bbox"]["right"],
+            "bottom": item["bbox"]["bottom"],
+            "width": item["bbox"]["right"] - item["bbox"]["left"],
+            "height": item["bbox"]["bottom"] - item["bbox"]["top"],
+            "text_preview": item["text"][:50] if item["text"] else ""
+        })
+    
+    for item in layout_data["tables"]:
+        rows.append({
+            "type": "table",
+            "index": item["index"],
+            "page": item["page_no"],
+            "left": item["bbox"]["left"],
+            "top": item["bbox"]["top"],
+            "right": item["bbox"]["right"],
+            "bottom": item["bbox"]["bottom"],
+            "width": item["bbox"]["right"] - item["bbox"]["left"],
+            "height": item["bbox"]["bottom"] - item["bbox"]["top"],
+            "text_preview": f"Table {item['index']}"
+        })
+    
+    for item in layout_data["figures"]:
+        rows.append({
+            "type": "figure",
+            "index": item["index"],
+            "page": item["page_no"],
+            "left": item["bbox"]["left"],
+            "top": item["bbox"]["top"],
+            "right": item["bbox"]["right"],
+            "bottom": item["bbox"]["bottom"],
+            "width": item["bbox"]["right"] - item["bbox"]["left"],
+            "height": item["bbox"]["bottom"] - item["bbox"]["top"],
+            "text_preview": f"Figure {item['index']}"
+        })
+    
+    if rows:
+        df = pd.DataFrame(rows)
+        csv_path = layout_dir / "bounding_boxes.csv"
+        df.to_csv(csv_path, index=False)
+        
+        print(f"  → Extracted layout info: {len(rows)} items with bounding boxes")
+        print(f"    - JSON: {layout_json_path}")
+        print(f"    - CSV: {csv_path}")
+    else:
+        print(f"  → No layout information found")
+    
+    return len(rows)
+
 def create_summary(conv_res):
     """Create summary statistics for the document"""
     doc = conv_res.document
@@ -237,8 +382,8 @@ def create_summary(conv_res):
     }
 
 if __name__ == "__main__":
-    # Create output folders
-    for dir_path in [OUT_MD, OUT_JSON, OUT_TAB, OUT_FIG, OUT_PAGE]:
+    # Create output folders (including new layout folder)
+    for dir_path in [OUT_MD, OUT_JSON, OUT_TAB, OUT_FIG, OUT_PAGE, OUT_LAYOUT]:
         dir_path.mkdir(parents=True, exist_ok=True)
 
     pdfs = sorted(IN_DIR.rglob("*.pdf"))
@@ -271,7 +416,10 @@ if __name__ == "__main__":
         # 5) Extract figures and charts
         extract_figures(conv_res, stem)
         
-        # 6) Create summary
+        # 6) Extract layout information with bounding boxes (NEW)
+        extract_layout_info(conv_res, stem)
+        
+        # 7) Create summary
         summary = create_summary(conv_res)
         summary["file"] = pdf.name
         rows.append(summary)
@@ -279,7 +427,7 @@ if __name__ == "__main__":
         elapsed = time.time() - start_time
         print(f"  → Completed in {elapsed:.1f} seconds\n")
     
-    # 7) Write summary CSV
+    # 8) Write summary CSV
     df = pd.DataFrame(rows)
     df.to_csv(OUT_SUM, index=False)
     
@@ -290,6 +438,8 @@ if __name__ == "__main__":
     print(f"  • Tables        → {OUT_TAB}")
     print(f"  • Figures       → {OUT_FIG}")
     print(f"  • Page Images   → {OUT_PAGE}")
+    print(f"  • Layout Info   → {OUT_LAYOUT}")  # NEW
     print(f"  • Summary       → {OUT_SUM}")
     print(f"\n[dim]Tip: Markdown files with '_with_images' have embedded Base64 images[/]")
     print(f"[dim]     Regular .md files reference external image files[/]")
+    print(f"[dim]     Layout files contain bounding box coordinates for all elements[/]")  # NEW
