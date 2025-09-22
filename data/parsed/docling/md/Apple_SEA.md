@@ -4,7 +4,7 @@ Washington, D.C. 20549
 
 ## FORM 10-K
 
-<!-- image -->
+![Image](data\parsed\docling\md\Apple_SEA_artifacts\image_000000_61cb045dd91c78f1e6e5ead605e47456162b0fca0f1038ba0843645fb8b8eee9.png)
 
 (Mark One)
 
@@ -638,7 +638,7 @@ Share repurchase activity during the three months ended September 28, 2024 was a
 
 The following graph shows a comparison of five-year cumulative total shareholder return, calculated on a dividend-reinvested basis, for the Company, the S&amp;P 500 Index and the Dow Jones U.S. Technology Supersector Index. The graph assumes $100 was invested in each of the Company's common stock, the S&amp;P 500  Index  and  the  Dow  Jones  U.S.  Technology  Supersector  Index  as  of  the  market  close  on  September  27,  2019.  Past  stock  price  performance  is  not necessarily indicative of future stock price performance.
 
-<!-- image -->
+![Image](data\parsed\docling\md\Apple_SEA_artifacts\image_000001_6dd766f535cb2b882cca0ac747e4c54e3e82f4c37573e1bf3e03391fa31ce135.png)
 
 |                                             | September 2019   | September 2020   | September 2021   | September 2022   | September 2023   | September 2024   |
 |---------------------------------------------|------------------|------------------|------------------|------------------|------------------|------------------|
@@ -2808,7 +2808,7 @@ In the event of any ambiguity or discrepancy, the determination of the Committee
 
 * * * * *
 
-<!-- image -->
+![Image](data\parsed\docling\md\Apple_SEA_artifacts\image_000002_99a31d5eb9a6a409f6ec0eb331bae73b453e5ac91b5c723c01eab3c81f9f40be.png)
 
 ## Insider Trading Policy
 
@@ -2996,7 +2996,7 @@ Date: November 1, 2024
 
 ## CERTIFICATION
 
-<!-- image -->
+![Image](data\parsed\docling\md\Apple_SEA_artifacts\image_000003_abeac3ef6f0ca56fd2fdce601c988242a7a152acb8d9cd84d3963af00325a011.png)
 
 ## CERTIFICATIONS OF CHIEF EXECUTIVE OFFICER AND CHIEF FINANCIAL OFFICER PURSUANT TO
 
@@ -3018,7 +3018,7 @@ Date: November 1, 2024
 
 A signed original of this written statement required by Section 906 has been provided to Apple Inc. and will be retained by Apple Inc. and furnished to the Securities and Exchange Commission or its staff upon request.
 
-<!-- image -->
+![Image](data\parsed\docling\md\Apple_SEA_artifacts\image_000004_69f2d1f6bf79915e452c37d09333259bafac75a1719b28f6ffeade429e3a0fa9.png)
 
 ## Rule 10D-1 Recovery Policy
 
