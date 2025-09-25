@@ -1,0 +1,67 @@
+{
+  "Total Revenue": {
+    "best_match": "Total net sales",
+    "similarity": 0.5285714285714286,
+    "confidence": "Medium"
+  },
+  "Total Stockholders Equity": {
+    "best_match": "Total liabilities and shareholders' equity",
+    "similarity": 0.4545454545454546,
+    "confidence": "Medium"
+  },
+  "Cost of Revenue": {
+    "best_match": "Total cost of sales",
+    "similarity": 0.571764705882353,
+    "confidence": "Medium"
+  },
+  "Gross Profit": {
+    "best_match": null,
+    "similarity": 0.23333333333333334,
+    "confidence": "Low"
+  },
+  "Current Liabilities": {
+    "best_match": "Current liabilities:",
+    "similarity": 1.0,
+    "confidence": "High"
+  },
+  "Current Assets": {
+    "best_match": "Current assets:",
+    "similarity": 1.0,
+    "confidence": "High"
+  },
+  "Operating Income": {
+    "best_match": "Other comprehensive income/(loss):",
+    "similarity": 0.44437689969604866,
+    "confidence": "Medium"
+  },
+  "Net Income": {
+    "best_match": "Income taxes payable",
+    "similarity": 0.46,
+    "confidence": "Medium"
+  },
+  "Total Assets": {
+    "best_match": "Total long-lived assets",
+    "similarity": 0.5742857142857143,
+    "confidence": "Medium"
+  },
+  "Cash and Cash Equivalents": {
+    "best_match": "Cash and cash equivalents",
+    "similarity": 1.0,
+    "confidence": "High"
+  },
+  "Total Liabilities": {
+    "best_match": "Total non-current liabilities",
+    "similarity": 0.5956521739130435,
+    "confidence": "Medium"
+  },
+  "EPS Basic": {
+    "best_match": null,
+    "similarity": 0.2185185185185185,
+    "confidence": "Low"
+  },
+  "EPS Diluted": {
+    "best_match": null,
+    "similarity": 0.21034482758620687,
+    "confidence": "Low"
+  }
+}
