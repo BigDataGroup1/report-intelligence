@@ -500,58 +500,136 @@ def fallback_render_html_as_image_enhanced(html_content: str, base_dir: Path, ba
 # -------------------- DOCLING RECONSTRUCTION --------------------
 def reconstruct_docling_page(doc_id: str, page: int, base_w: int, base_h: int) -> Tuple[Image.Image, Dict[str,Any], str]:
     """
-    Enhanced docling reconstruction that handles page-based content properly
+    Simplified reconstruction that reads actual page text and shows it properly
     """
+    # First, try to get the actual page text from parsed directory
+    parsed_dir = PARSED_DIR / doc_id
+    page_text_file = parsed_dir / "pages" / f"page_{page}.txt"
+    
+    # Also check for tables and figures for this page
+    tables_dir = parsed_dir / "tables"
+    figures_dir = parsed_dir / "figures" / f"page_{page}"
+    
+    # Start building HTML content
+    page_html_parts = [
+        '<html><body style="padding: 20px; font-family: Arial, sans-serif;">',
+        f'<h2 style="color: #333;">Docling - Page {page}</h2>'
+    ]
+    
+    page_text_content = ""
+    tables_count = 0
+    figures_count = 0
+    
+    # 1. Load and display the page text
+    if page_text_file.exists():
+        try:
+            page_text_content = page_text_file.read_text(encoding='utf-8')
+            
+            # Clean and format the text
+            lines = page_text_content.split('\n')
+            
+            # Add text content with proper formatting
+            page_html_parts.append('<div style="margin: 20px 0;">')
+            
+            for line in lines[:50]:  # Show first 50 lines to fit on page
+                line = line.strip()
+                if line:
+                    # Check if it looks like a header (all caps or starts with number)
+                    if line.isupper() and len(line) < 100:
+                        page_html_parts.append(f'<h3 style="color: #0066cc;">{html_module.escape(line)}</h3>')
+                    elif line[0:1].isdigit() and '.' in line[:4]:
+                        page_html_parts.append(f'<h4 style="color: #666;">{html_module.escape(line)}</h4>')
+                    else:
+                        # Regular paragraph
+                        if len(line) > 200:
+                            line = line[:200] + "..."
+                        page_html_parts.append(f'<p style="margin: 5px 0;">{html_module.escape(line)}</p>')
+            
+            if len(lines) > 50:
+                page_html_parts.append(f'<p style="color: #999; font-style: italic;">... and {len(lines) - 50} more lines</p>')
+            
+            page_html_parts.append('</div>')
+            
+        except Exception as e:
+            page_html_parts.append(f'<p style="color: red;">Error loading page text: {e}</p>')
+    else:
+        page_html_parts.append(f'<p style="color: #999;">No text file found at {page_text_file}</p>')
+    
+    # 2. Check for tables on this page
+    if tables_dir.exists():
+        table_files = list(tables_dir.glob(f"table_p{page}_*.csv"))
+        if table_files:
+            page_html_parts.append(f'<h3 style="color: #0066cc;">Tables on Page {page}</h3>')
+            for table_file in table_files[:3]:  # Show first 3 tables
+                tables_count += 1
+                try:
+                    import pandas as pd
+                    df = pd.read_csv(table_file)
+                    page_html_parts.append(f'<div style="border: 2px solid #0066cc; padding: 10px; margin: 10px 0;">')
+                    page_html_parts.append(f'<h4>Table {tables_count}: {table_file.stem}</h4>')
+                    
+                    # Show table preview (first 3 rows, first 5 columns)
+                    preview_df = df.iloc[:3, :5] if len(df) > 3 else df.iloc[:, :5]
+                    table_html = preview_df.to_html(index=False)
+                    page_html_parts.append(table_html)
+                    page_html_parts.append(f'<p style="color: #666; font-size: 0.9em;">Shape: {df.shape[0]} rows × {df.shape[1]} columns</p>')
+                    page_html_parts.append('</div>')
+                except Exception as e:
+                    page_html_parts.append(f'<div style="border: 1px solid #ccc; padding: 5px;">Table {tables_count} - Load error</div>')
+    
+    # 3. Check for figures on this page
+    if figures_dir.exists():
+        figure_files = list(figures_dir.glob("figure_*.png"))
+        if figure_files:
+            page_html_parts.append(f'<h3 style="color: #0066cc;">Figures on Page {page}</h3>')
+            for fig_file in figure_files[:2]:  # Show first 2 figures
+                figures_count += 1
+                try:
+                    # Convert to base64 for embedding
+                    import base64
+                    with open(fig_file, 'rb') as f:
+                        img_data = base64.b64encode(f.read()).decode()
+                    page_html_parts.append(f'<div style="border: 2px solid #cc0000; padding: 10px; margin: 10px 0;">')
+                    page_html_parts.append(f'<h4>Figure {figures_count}</h4>')
+                    page_html_parts.append(f'<img src="data:image/png;base64,{img_data}" style="max-width: 100%; max-height: 200px;"/>')
+                    page_html_parts.append('</div>')
+                except:
+                    page_html_parts.append(f'<div style="border: 1px solid #ccc; padding: 5px;">Figure {figures_count} - Load error</div>')
+    
+    # Add summary
+    page_html_parts.append('<hr style="margin: 20px 0;"/>')
+    page_html_parts.append('<div style="background: #f5f5f5; padding: 10px; border-radius: 5px;">')
+    page_html_parts.append(f'<strong>Page {page} Summary:</strong><br/>')
+    page_html_parts.append(f'Text lines: {len(page_text_content.split(chr(10))) if page_text_content else 0}<br/>')
+    page_html_parts.append(f'Tables: {tables_count}<br/>')
+    page_html_parts.append(f'Figures: {figures_count}')
+    page_html_parts.append('</div>')
+    
+    page_html_parts.append('</body></html>')
+    page_html = '\n'.join(page_html_parts)
+    
+    # Render the HTML
     img = Image.new("RGB", (base_w, base_h), color="white")
     
-    html_content, base_dir, mode = load_docling_as_html(doc_id)
-    if html_content is None:
-        draw = ImageDraw.Draw(img)
-        try: 
-            font = ImageFont.load_default()
-        except Exception: 
-            font = None
-        draw.text((20,20), "Docling outputs not found (md/html/json)", fill=(255,0,0), font=font)
-        return img, {"mode":"missing","tables":0,"figures":0,"text_tokens":0}, ""
-    
-    # Extract text for scoring
-    plain_text = re.sub(r"<[^>]+>", " ", html_content)
-    plain_text = html_module.unescape(plain_text)
-    tcount = len(tokens(plain_text))
-    tables = len(re.findall(r"<table\b", html_content, flags=re.I))
-    figures = len(re.findall(r"<img\b", html_content, flags=re.I))
-    
-    # Add a note if content is very long
-    if len(plain_text) > 5000:  # If content is very long
-        html_content = f'<div style="background: #ffffcc; padding: 10px; margin: 10px; border: 1px solid #ccc;">' \
-                      f'<b>Note:</b> Docling extracted full document ({len(plain_text)} chars). ' \
-                      f'Showing page {page} viewport only.</div>\n' + html_content
-    
-    # Try Playwright first if available
     if PLAYWRIGHT_AVAILABLE:
         try:
-            rendered = render_html_with_playwright(html_content, base_dir or Path("."), base_w, base_h)
-            stats = {"mode":f"html_playwright_{mode}","tables":tables,"figures":figures,"text_tokens":tcount}
-            return rendered, stats, plain_text
+            img = render_html_with_playwright(page_html, Path("."), base_w, base_h, timeout_ms=10000)
         except Exception as e:
-            print(f"Warning: Playwright rendering failed: {e}")
+            print(f"Playwright rendering failed: {e}, using fallback")
+            img = fallback_render_html_as_image_enhanced(page_html, Path("."), base_w, base_h, doc_id)
+    else:
+        img = fallback_render_html_as_image_enhanced(page_html, Path("."), base_w, base_h, doc_id)
     
-    # Fallback to PIL-based renderer
-    try:
-        fallback_img = fallback_render_html_as_image_enhanced(
-            html_content, base_dir or Path("."), base_w, base_h, doc_id
-        )
-        stats = {"mode":f"html_fallback_{mode}","tables":tables,"figures":figures,"text_tokens":tcount}
-        return fallback_img, stats, plain_text
-    except Exception as e:
-        print(f"Error in fallback rendering: {e}")
-        draw = ImageDraw.Draw(img)
-        try: 
-            font = ImageFont.load_default()
-        except Exception: 
-            font = None
-        draw.text((20,20), f"Rendering failed: {e}", fill=(255,0,0), font=font)
-        return img, {"mode":"render_error","tables":0,"figures":0,"text_tokens":0}, ""
+    stats = {
+        "mode": "simplified_page_reconstruction",
+        "tables": tables_count,
+        "figures": figures_count,
+        "text_tokens": len(tokens(page_text_content))
+    }
+    
+    return img, stats, page_text_content[:1000]
+    # Keep the rest of your original fallback code as is
+    # ... (rest of the original function)
 
 # -------------------- PIPELINE RECONSTRUCTION --------------------
 def draw_text_wordwise(img: Image.Image, words: List[Dict[str,Any]], font_size=14):
