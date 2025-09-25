@@ -1,0 +1,14 @@
+concept,xbrl_value,pdf_value,pdf_source,pdf_label,accuracy,difference_pct,match_quality,symbol
+Total Revenue,391035000000.0,391035.0,pipeline_table_p25_1,Total net sales,100.0,0.0,EXACT,✓
+Total Stockholders Equity,364980000000.0,56950.0,pipeline_table_p34_1,Total shareholders’ equity,1.5603594717518768e-05,99.99998439640528,MISMATCH,✗
+Cost of Revenue,210352000000.0,210352.0,pipeline_table_p32_1,Total cost of sales,100.0,0.0,EXACT,✓
+Gross Profit,180683000000.0,180683.0,pipeline_table_p27_1,Total gross margin,100.0,0.0,EXACT,✓
+Current Liabilities,176392000000.0,176392.0,pipeline_table_p34_1,Total current liabilities,100.0,0.0,EXACT,✓
+Current Assets,152987000000.0,152987.0,pipeline_table_p34_1,Total current assets,100.0,0.0,EXACT,✓
+Operating Income,123216000000.0,123216.0,pipeline_table_p32_1,Operating income,100.0,0.0,EXACT,✓
+Net Income,93736000000.0,93736.0,pipeline_table_p32_1,Net income,100.0,0.0,EXACT,✓
+Total Assets,45680000000.0,364980.0,pipeline_table_p34_1,Total assets,798.9929947460596,698.9929947460596,MISMATCH,✗
+Cash and Cash Equivalents,29943000000.0,29943.0,pipeline_table_p34_1,Cash and cash equivalents,100.0,0.0,EXACT,✓
+Total Liabilities,1000000000.0,308030.0,pipeline_table_p34_1,Total liabilities,30802.999999999996,30702.999999999996,MISMATCH,✗
+EPS Basic,6.11,6.11,pipeline_table_p39_1,Basic earnings per share,100.0,0.0,EXACT,✓
+EPS Diluted,6.08,6.08,pipeline_table_p39_1,Diluted earnings per share,100.0,0.0,EXACT,✓
