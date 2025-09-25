@@ -1,0 +1,27 @@
+{
+  "text": {
+    "wer_avg": 0.18050541516245489,
+    "cer_avg": 0.1182181610508281,
+    "files": {
+      "p019.txt": {
+        "wer": 0.18050541516245489,
+        "cer": 0.1182181610508281
+      }
+    }
+  },
+  "tables": {
+    "cell_precision": 1.0,
+    "cell_recall": 1.0,
+    "cell_f1": 1.0,
+    "counts": {
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "drift_summary": {
+    "chunks_count": 1,
+    "chunk_len_mean": 1807.0,
+    "num_ratio_mean": 0.15508021390374332
+  }
+}
