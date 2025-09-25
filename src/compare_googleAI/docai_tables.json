@@ -1,0 +1,924 @@
+[
+  {
+    "layout": {
+      "text_anchor": {
+        "text_segments": [
+          {
+            "start_index": "6092",
+            "end_index": "6160"
+          },
+          {
+            "start_index": "6042",
+            "end_index": "6092"
+          },
+          {
+            "start_index": "6245",
+            "end_index": "6260"
+          },
+          {
+            "start_index": "6160",
+            "end_index": "6245"
+          },
+          {
+            "start_index": "6341",
+            "end_index": "6353"
+          },
+          {
+            "start_index": "6260",
+            "end_index": "6341"
+          },
+          {
+            "start_index": "6436",
+            "end_index": "6447"
+          },
+          {
+            "start_index": "6353",
+            "end_index": "6436"
+          },
+          {
+            "start_index": "6527",
+            "end_index": "6543"
+          },
+          {
+            "start_index": "6447",
+            "end_index": "6527"
+          }
+        ]
+      },
+      "confidence": 0.9997373,
+      "bounding_poly": {
+        "vertices": [
+          {
+            "x": 59,
+            "y": 684
+          },
+          {
+            "x": 1708,
+            "y": 684
+          },
+          {
+            "x": 1708,
+            "y": 1018
+          },
+          {
+            "x": 59,
+            "y": 1018
+          }
+        ],
+        "normalized_vertices": [
+          {
+            "x": 0.033560865,
+            "y": 0.30065933
+          },
+          {
+            "x": 0.9715586,
+            "y": 0.30065933
+          },
+          {
+            "x": 0.9715586,
+            "y": 0.4474725
+          },
+          {
+            "x": 0.033560865,
+            "y": 0.4474725
+          }
+        ]
+      },
+      "orientation": "PAGE_UP"
+    },
+    "header_rows": [
+      {
+        "cells": [
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6092",
+                    "end_index": "6107"
+                  }
+                ]
+              },
+              "confidence": 0.9973773,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 59,
+                    "y": 684
+                  },
+                  {
+                    "x": 299,
+                    "y": 684
+                  },
+                  {
+                    "x": 299,
+                    "y": 759
+                  },
+                  {
+                    "x": 59,
+                    "y": 759
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.033560865,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.033560865,
+                    "y": 0.33362636
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6107",
+                    "end_index": "6160"
+                  }
+                ]
+              },
+              "confidence": 0.99755335,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 299,
+                    "y": 684
+                  },
+                  {
+                    "x": 683,
+                    "y": 684
+                  },
+                  {
+                    "x": 683,
+                    "y": 759
+                  },
+                  {
+                    "x": 299,
+                    "y": 759
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.17007963,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.33362636
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6042",
+                    "end_index": "6092"
+                  }
+                ]
+              },
+              "confidence": 0.99716866,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 683,
+                    "y": 684
+                  },
+                  {
+                    "x": 1697,
+                    "y": 684
+                  },
+                  {
+                    "x": 1697,
+                    "y": 759
+                  },
+                  {
+                    "x": 683,
+                    "y": 759
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.38850966,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.30065933
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.33362636
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          }
+        ]
+      }
+    ],
+    "body_rows": [
+      {
+        "cells": [
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6245",
+                    "end_index": "6249"
+                  }
+                ]
+              },
+              "confidence": 0.99884355,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 59,
+                    "y": 759
+                  },
+                  {
+                    "x": 299,
+                    "y": 759
+                  },
+                  {
+                    "x": 299,
+                    "y": 816
+                  },
+                  {
+                    "x": 59,
+                    "y": 816
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.033560865,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.033560865,
+                    "y": 0.35868132
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6249",
+                    "end_index": "6260"
+                  }
+                ]
+              },
+              "confidence": 0.9990196,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 299,
+                    "y": 759
+                  },
+                  {
+                    "x": 683,
+                    "y": 759
+                  },
+                  {
+                    "x": 683,
+                    "y": 816
+                  },
+                  {
+                    "x": 299,
+                    "y": 816
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.17007963,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.35868132
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6160",
+                    "end_index": "6245"
+                  }
+                ]
+              },
+              "confidence": 0.99863493,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 683,
+                    "y": 759
+                  },
+                  {
+                    "x": 1697,
+                    "y": 759
+                  },
+                  {
+                    "x": 1697,
+                    "y": 816
+                  },
+                  {
+                    "x": 683,
+                    "y": 816
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.38850966,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.33362636
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.35868132
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6341",
+                    "end_index": "6345"
+                  }
+                ]
+              },
+              "confidence": 0.99895316,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 59,
+                    "y": 816
+                  },
+                  {
+                    "x": 299,
+                    "y": 816
+                  },
+                  {
+                    "x": 299,
+                    "y": 882
+                  },
+                  {
+                    "x": 59,
+                    "y": 882
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.033560865,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.033560865,
+                    "y": 0.3876923
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6345",
+                    "end_index": "6353"
+                  }
+                ]
+              },
+              "confidence": 0.9991293,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 299,
+                    "y": 816
+                  },
+                  {
+                    "x": 683,
+                    "y": 816
+                  },
+                  {
+                    "x": 683,
+                    "y": 882
+                  },
+                  {
+                    "x": 299,
+                    "y": 882
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.17007963,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.3876923
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6260",
+                    "end_index": "6341"
+                  }
+                ]
+              },
+              "confidence": 0.9987446,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 683,
+                    "y": 816
+                  },
+                  {
+                    "x": 1697,
+                    "y": 816
+                  },
+                  {
+                    "x": 1697,
+                    "y": 882
+                  },
+                  {
+                    "x": 683,
+                    "y": 882
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.38850966,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.35868132
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.3876923
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6436",
+                    "end_index": "6440"
+                  }
+                ]
+              },
+              "confidence": 0.99908435,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 59,
+                    "y": 882
+                  },
+                  {
+                    "x": 299,
+                    "y": 882
+                  },
+                  {
+                    "x": 299,
+                    "y": 945
+                  },
+                  {
+                    "x": 59,
+                    "y": 945
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.033560865,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.033560865,
+                    "y": 0.41538462
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6440",
+                    "end_index": "6447"
+                  }
+                ]
+              },
+              "confidence": 0.9992605,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 299,
+                    "y": 882
+                  },
+                  {
+                    "x": 683,
+                    "y": 882
+                  },
+                  {
+                    "x": 683,
+                    "y": 945
+                  },
+                  {
+                    "x": 299,
+                    "y": 945
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.17007963,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.41538462
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6353",
+                    "end_index": "6436"
+                  }
+                ]
+              },
+              "confidence": 0.9988758,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 683,
+                    "y": 882
+                  },
+                  {
+                    "x": 1697,
+                    "y": 882
+                  },
+                  {
+                    "x": 1697,
+                    "y": 945
+                  },
+                  {
+                    "x": 683,
+                    "y": 945
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.38850966,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.3876923
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.41538462
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6527",
+                    "end_index": "6531"
+                  }
+                ]
+              },
+              "confidence": 0.9983146,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 59,
+                    "y": 945
+                  },
+                  {
+                    "x": 299,
+                    "y": 945
+                  },
+                  {
+                    "x": 299,
+                    "y": 1004
+                  },
+                  {
+                    "x": 59,
+                    "y": 1004
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.033560865,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.4413187
+                  },
+                  {
+                    "x": 0.033560865,
+                    "y": 0.4413187
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6531",
+                    "end_index": "6543"
+                  }
+                ]
+              },
+              "confidence": 0.9984907,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 299,
+                    "y": 945
+                  },
+                  {
+                    "x": 683,
+                    "y": 945
+                  },
+                  {
+                    "x": 683,
+                    "y": 1004
+                  },
+                  {
+                    "x": 299,
+                    "y": 1004
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.17007963,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.4413187
+                  },
+                  {
+                    "x": 0.17007963,
+                    "y": 0.4413187
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          },
+          {
+            "layout": {
+              "text_anchor": {
+                "text_segments": [
+                  {
+                    "start_index": "6447",
+                    "end_index": "6527"
+                  }
+                ]
+              },
+              "confidence": 0.998106,
+              "bounding_poly": {
+                "vertices": [
+                  {
+                    "x": 683,
+                    "y": 945
+                  },
+                  {
+                    "x": 1697,
+                    "y": 945
+                  },
+                  {
+                    "x": 1697,
+                    "y": 1004
+                  },
+                  {
+                    "x": 683,
+                    "y": 1004
+                  }
+                ],
+                "normalized_vertices": [
+                  {
+                    "x": 0.38850966,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.41538462
+                  },
+                  {
+                    "x": 0.96530145,
+                    "y": 0.4413187
+                  },
+                  {
+                    "x": 0.38850966,
+                    "y": 0.4413187
+                  }
+                ]
+              },
+              "orientation": "PAGE_UP"
+            },
+            "row_span": 1,
+            "col_span": 1
+          }
+        ]
+      }
+    ]
+  }
+]
