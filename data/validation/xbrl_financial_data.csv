@@ -1,0 +1,14 @@
+concept,value,context,fiscal_year,source
+Total Revenue,391035000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+Total Stockholders Equity,364980000000.0,c-21,FY2024,BeautifulSoup_FY2024_Improved
+Cost of Revenue,210352000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+Gross Profit,180683000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+Current Liabilities,176392000000.0,c-21,FY2024,BeautifulSoup_FY2024_Improved
+Current Assets,152987000000.0,c-21,FY2024,BeautifulSoup_FY2024_Improved
+Operating Income,123216000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+Net Income,93736000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+Total Assets,45680000000.0,c-21,FY2024,BeautifulSoup_FY2024_Improved
+Cash and Cash Equivalents,29943000000.0,c-21,FY2024,BeautifulSoup_FY2024_Improved
+Total Liabilities,1000000000.0,c-1,FY2024,BeautifulSoup_FY2024_Improved
+EPS Basic,6.11,c-1,FY2024,BeautifulSoup_FY2024_Improved
+EPS Diluted,6.08,c-1,FY2024,BeautifulSoup_FY2024_Improved
