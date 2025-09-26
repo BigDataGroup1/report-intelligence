@@ -164,3 +164,37 @@ stages:
       md5: 2034e9e74ae5e585ab747ccef59d2705.dir
       size: 6038
       nfiles: 2
+  pdf_metadata:
+    cmd: python src/build_metadata.py
+    deps:
+    - path: data/parsed/
+      hash: md5
+      md5: 34d9f81a90a326911eeb35b09a6eb1e9.dir
+      size: 149860748
+      nfiles: 541
+    - path: data/upload/
+      hash: md5
+      md5: d9bdb4cf17ce59fb3120b7518b832b92.dir
+      size: 1176605
+      nfiles: 2
+    - path: src/build_metadata.py
+      hash: md5
+      md5: 9aca2897947fac89185f0cbb2d590f7a
+      size: 13279
+    outs:
+    - path: data/staged/Apple_SEA.jsonl
+      hash: md5
+      md5: e8e051650d5e24b7861664bd8ef3eb4d
+      size: 295348
+    - path: data/staged/Apple_SEA.md
+      hash: md5
+      md5: 28b60a42ee95bf98dda3fc87d86b4045
+      size: 21327
+    - path: data/staged/apple_sea_tabelandtext.jsonl
+      hash: md5
+      md5: cd567da8ac08d6362acc71ae1ecc1cb6
+      size: 6234
+    - path: data/staged/apple_sea_tabelandtext.md
+      hash: md5
+      md5: 1123944c11f3547232023cbdfeb27cdd
+      size: 922
