@@ -6,8 +6,13 @@ stages:
       - src/parse_all_provenance.py
       - data/upload/
     outs:
-      - data/parsed/Apple_SEA/
-      - data/parsed/apple_sea_tabelandtext/
+      - data/parsed/Apple_SEA/pages
+      - data/parsed/Apple_SEA/tables
+      - data/parsed/Apple_SEA/Apple_SEA_words.jsonl
+      - data/parsed/Apple_SEA/ocr_pages.csv
+      - data/parsed/apple_sea_tabelandtext/pages
+      - data/parsed/apple_sea_tabelandtext/tables
+      - data/parsed/apple_sea_tabelandtext/apple_sea_tabelandtext_words.jsonl
   
   detect_layout:
     cmd: python src/layout_detect.py
