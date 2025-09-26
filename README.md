@@ -25,7 +25,7 @@ Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (o
 ---
 
 ## Architecture Diagram
-![Pipeline Diagram](architecture/flow_diagram.png)
+![Pipeline Diagram](archdiagram.png)
 
 ---
 
