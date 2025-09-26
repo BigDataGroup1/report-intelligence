@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-09-25T20:38:52.242461",
+  "system_info": {
+    "cpu_count": 22,
+    "cpu_logical": 22,
+    "memory_total_gb": 31.46,
+    "python_version": "3.13.7"
+  },
+  "test_data": {
+    "pages": 121,
+    "tables": 51,
+    "figures": 5,
+    "blocks": 1302
+  },
+  "pdfplumber": {
+    "component": "pdfplumber",
+    "pages_processed": 121,
+    "tables_extracted": 51,
+    "estimated_runtime": {
+      "text_extraction_sec": 145.2,
+      "table_extraction_sec": 107.10000000000001,
+      "ocr_fallback_sec": 42.5,
+      "total_sec": 294.8
+    },
+    "memory_usage_mb": {
+      "base_memory": 150,
+      "per_page_memory": 8,
+      "peak_memory": 1118
+    },
+    "performance": {
+      "pages_per_minute": 24.626865671641788,
+      "tables_per_minute": 10.379918588873812,
+      "total_minutes": 4.913333333333333
+    }
+  },
+  "docling": {
+    "component": "docling",
+    "pages_processed": 121,
+    "tables_extracted": 51,
+    "figures_extracted": 5,
+    "blocks_processed": 1302,
+    "estimated_runtime": {
+      "document_conversion_sec": 629.2,
+      "image_extraction_sec": 217.8,
+      "table_export_sec": 76.5,
+      "layout_analysis_sec": 254.10000000000002,
+      "total_sec": 1177.6000000000001
+    },
+    "memory_usage_mb": {
+      "base_memory": 800,
+      "per_page_memory": 25,
+      "model_memory": 400,
+      "peak_memory": 4225
+    },
+    "performance": {
+      "pages_per_minute": 6.16508152173913,
+      "blocks_per_minute": 66.33831521739128,
+      "total_minutes": 19.62666666666667
+    }
+  },
+  "google": {
+    "service": "google_document_ai",
+    "pages_processed": 121,
+    "price_per_page": 0.015,
+    "total_cost": 1.815,
+    "estimated_runtime_sec": 302.5,
+    "performance": {
+      "pages_per_minute": 24.0,
+      "cost_per_1000_pages": 15.0,
+      "total_minutes": 5.041666666666667
+    }
+  },
+  "bottlenecks": [
+    {
+      "category": "processing_speed",
+      "slowest_component": "docling",
+      "speed_comparison": {
+        "pdfplumber_minutes": 4.913333333333333,
+        "docling_minutes": 19.62666666666667,
+        "google_api_minutes": 5.041666666666667
+      }
+    },
+    {
+      "category": "memory_usage",
+      "highest_memory": "docling",
+      "memory_comparison_mb": {
+        "pdfplumber": 1118,
+        "docling": 4225
+      }
+    },
+    {
+      "category": "cost_efficiency",
+      "most_expensive": "google_document_ai",
+      "cost_comparison": {
+        "open_source_cost": 0,
+        "google_api_cost": 1.815,
+        "cost_per_1000_pages": 15.0
+      }
+    }
+  ],
+  "recommendations": {
+    "hardware": {
+      "minimum": {
+        "cpu_cores": 4,
+        "ram_gb": 8,
+        "storage_gb": 50,
+        "description": "For processing 10-50 documents per day"
+      },
+      "recommended": {
+        "cpu_cores": 8,
+        "ram_gb": 16,
+        "storage_gb": 200,
+        "gpu": "Optional for Docling (speeds up layout detection)",
+        "description": "For processing 100-500 documents per day"
+      },
+      "high_volume": {
+        "cpu_cores": 16,
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "Required for Docling at scale",
+        "description": "For processing 1000+ documents per day"
+      }
+    },
+    "concurrency": {
+      "pdfplumber": "Can process 2-4 documents in parallel per CPU core",
+      "docling": "Process 1 document at a time due to memory usage",
+      "google_api": "Supports high concurrency but rate limits apply"
+    },
+    "cost_projections": {
+      "1000_pages_month": {
+        "google_api": 14.999999999999998,
+        "compute_cost": 50,
+        "storage_cost": 10
+      },
+      "10000_pages_month": {
+        "google_api": 150.0,
+        "compute_cost": 200,
+        "storage_cost": 50
+      }
+    }
+  }
+}

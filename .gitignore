@@ -9,7 +9,8 @@ keys/
 # C extensions
 *.so
 
-
+src/architecture.py
+simple_lantern_architecture.png
 # Distribution / packaging
 .Python
 build/
