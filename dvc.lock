@@ -1,0 +1,166 @@
+schema: '2.0'
+stages:
+  parse_pdf:
+    cmd: python src/parse_all_provenance.py
+    deps:
+    - path: data/upload/
+      hash: md5
+      md5: d9bdb4cf17ce59fb3120b7518b832b92.dir
+      size: 1176605
+      nfiles: 2
+    - path: src/parse_all_provenance.py
+      hash: md5
+      md5: 07caf1e457763580568b9cd24eed53ce
+      size: 6038
+    outs:
+    - path: data/parsed/Apple_SEA/Apple_SEA_words.jsonl
+      hash: md5
+      md5: 63bf65ea3d80984f0277e7b49c65a94d
+      size: 13715040
+    - path: data/parsed/Apple_SEA/ocr_pages.csv
+      hash: md5
+      md5: 2f1f91c705bc9eeca184289266ed61a1
+      size: 11
+    - path: data/parsed/Apple_SEA/pages
+      hash: md5
+      md5: d473ce051111bbfcba9d365b56da6ac9.dir
+      size: 416317
+      nfiles: 121
+    - path: data/parsed/Apple_SEA/tables
+      hash: md5
+      md5: e5f3a94d5ee68c5a91db58beab54d9b3.dir
+      size: 34851
+      nfiles: 82
+    - path: 
+        data/parsed/apple_sea_tabelandtext/apple_sea_tabelandtext_words.jsonl
+      hash: md5
+      md5: d21050399eda923888dabcd65cccfd2c
+      size: 275873
+    - path: data/parsed/apple_sea_tabelandtext/pages
+      hash: md5
+      md5: 96241cc7b923fac4dd2b14e73e451808.dir
+      size: 8262
+      nfiles: 3
+    - path: data/parsed/apple_sea_tabelandtext/tables
+      hash: md5
+      md5: 9da35df72109fca973956822f19218ff.dir
+      size: 508
+      nfiles: 1
+  detect_layout:
+    cmd: python src/layout_detect.py
+    deps:
+    - path: data/upload/
+      hash: md5
+      md5: d9bdb4cf17ce59fb3120b7518b832b92.dir
+      size: 1176605
+      nfiles: 2
+    - path: src/layout_detect.py
+      hash: md5
+      md5: 61fcab37d57ed2d56e61cd30d9d1c64c
+      size: 5125
+    outs:
+    - path: data/parsed/Apple_SEA/figures/
+      hash: md5
+      md5: 2b68fc87a792f69ce7a0b3fcd7a1819a.dir
+      size: 175933
+      nfiles: 4
+    - path: data/parsed/Apple_SEA/layout/
+      hash: md5
+      md5: 9c8bdac77a87d360fec43a742683cf03.dir
+      size: 107491
+      nfiles: 121
+    - path: data/parsed/apple_sea_tabelandtext/figures/
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+    - path: data/parsed/apple_sea_tabelandtext/layout/
+      hash: md5
+      md5: 26f9838cd6d1a71d4abb5406b0a920e3.dir
+      size: 2307
+      nfiles: 3
+  parse_docling:
+    cmd: python src/docling_unified.py
+    deps:
+    - path: data/upload/
+      hash: md5
+      md5: d9bdb4cf17ce59fb3120b7518b832b92.dir
+      size: 1176605
+      nfiles: 2
+    - path: src/docling_unified.py
+      hash: md5
+      md5: f327b9252b4100b1edb52bfbcedb1799
+      size: 17314
+    outs:
+    - path: data/parsed/docling/figures/
+      hash: md5
+      md5: 9c9b729a707e7f8f86b5c58376436b76.dir
+      size: 122848
+      nfiles: 5
+    - path: data/parsed/docling/json/
+      hash: md5
+      md5: 61cc9c64bd2928e63d956491fc87a7ab.dir
+      size: 76969006
+      nfiles: 2
+    - path: data/parsed/docling/layout/
+      hash: md5
+      md5: 6e4be9869956adae6bfbc50742382dd7.dir
+      size: 978096
+      nfiles: 4
+    - path: data/parsed/docling/md/
+      hash: md5
+      md5: 9b55d12b4b49bddfb21b4f8557d86f79.dir
+      size: 1765345
+      nfiles: 11
+    - path: data/parsed/docling/pages/
+      hash: md5
+      md5: f6b37ba696241df41b62f1f3ee039266.dir
+      size: 54099745
+      nfiles: 124
+    - path: data/parsed/docling/summary.csv
+      hash: md5
+      md5: 3d7aa02c1b28586bd5dc608e2c63e53c
+      size: 100
+    - path: data/parsed/docling/tables/
+      hash: md5
+      md5: 96fcff888e90c673569d92600bdf50d5.dir
+      size: 39000
+      nfiles: 52
+  docling_metadata:
+    cmd: python src/docling_metadata.py
+    deps:
+    - path: data/parsed/docling/figures/
+      hash: md5
+      md5: 9c9b729a707e7f8f86b5c58376436b76.dir
+      size: 122848
+      nfiles: 5
+    - path: data/parsed/docling/json/
+      hash: md5
+      md5: 61cc9c64bd2928e63d956491fc87a7ab.dir
+      size: 76969006
+      nfiles: 2
+    - path: data/parsed/docling/layout/
+      hash: md5
+      md5: 6e4be9869956adae6bfbc50742382dd7.dir
+      size: 978096
+      nfiles: 4
+    - path: data/parsed/docling/tables/
+      hash: md5
+      md5: 96fcff888e90c673569d92600bdf50d5.dir
+      size: 39000
+      nfiles: 52
+    - path: src/docling_metadata.py
+      hash: md5
+      md5: efacd380b39798fab4059fc56308e2cf
+      size: 18525
+    outs:
+    - path: data/parsed/docling/metadata/
+      hash: md5
+      md5: 25c076b4d0560ce8af52f1d433c608c3.dir
+      size: 1143977
+      nfiles: 2
+    - path: data/parsed/docling/sections/
+      hash: md5
+      md5: 2034e9e74ae5e585ab747ccef59d2705.dir
+      size: 6038
+      nfiles: 2

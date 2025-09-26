@@ -20,8 +20,10 @@ stages:
       - src/layout_detect.py
       - data/upload/
     outs:
-      - data/parsed/*/layout/
-      - data/parsed/*/figures/
+      - data/parsed/Apple_SEA/layout/
+      - data/parsed/Apple_SEA/figures/
+      - data/parsed/apple_sea_tabelandtext/layout/
+      - data/parsed/apple_sea_tabelandtext/figures/
   
   parse_docling:
     cmd: python src/docling_unified.py
@@ -50,9 +52,9 @@ stages:
       - data/staged/apple_sea_tabelandtext.md
   
   docling_metadata:
-    cmd: python src/docling_metadata_enhanced.py
+    cmd: python src/docling_metadata.py
     deps:
-      - src/docling_metadata_enhanced.py
+      - src/docling_metadata.py
       - data/parsed/docling/json/
       - data/parsed/docling/layout/
       - data/parsed/docling/tables/

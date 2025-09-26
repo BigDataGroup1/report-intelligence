@@ -6,9 +6,15 @@ __pycache__/
 
 # DVC managed data outputs
 /data/parsed/
+/data/staged/
+/data/formats/
+/src/compare_googleAI/
 
 # Optional: keep directory structure
+!/data/upload/.gitkeep
 !/data/parsed/.gitkeep
+!/data/staged/.gitkeep
+!/data/formats/.gitkeep
 
 # DVC cache (optional)
 /.dvc/cache/
