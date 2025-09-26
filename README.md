@@ -32,8 +32,7 @@ Together, these paths produce consistent artifacts (Markdown/HTML/JSON, CSV tabl
 
 ## Project Resources
 - 🧪 **Google Codelab:** [Codelab Link](https://codelabs-preview.appspot.com/?file_id=1aLnoq6XdCcXZZRO0eS9cLNEjgD60BaRREO3g-e_7C2k#0)
-- ▶️ **YouTube Demo:** *Demo Link* <!-- TODO: add the video URL -->
-
+- ▶️ **YouTube Demo:** https://www.youtube.com/watch?v=lAeiSnXkst8
 ---
 
 ## Technologies
