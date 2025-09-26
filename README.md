@@ -1,12 +1,20 @@
 # report-intelligence
-End-to-end pipeline for extracting, parsing, and validating SEC financial filings (10-K/10-Q) using Python. Includes text/OCR, table extraction, layout detection, embeddings, and XBRL validation with reproducible DVC workflows.
-# PDF Understanding Lab — pdfplumber + Docling
+
+**Report Intelligence** is an end-to-end, reproducible pipeline for extracting, parsing, and **validating SEC financial filings** (10-K/10-Q). It automates EDGAR ingestion; runs dual PDF parsers (a fast **pdfplumber** baseline and a layout-aware **Docling** path); attaches provenance (reading order, tables, figures, bounding boxes); and **cross-checks values against XBRL** to flag unit/scale mismatches (e.g., “in millions” vs full dollars). The project includes optional benchmarking with Google Document AI, embeddings for search/QA, and full **DVC** tracking so every result can be reproduced and audited.
+
+---
+
+# PDF Understanding Project — pdfplumber + Docling
 > Layout-aware PDF parsing with side-by-side baselines (text, tables, figures, reading order)
 
 ## Introduction
-This project builds a reproducible pipeline to parse PDFs using two complementary approaches:
-- **Baseline:** `pdfplumber` for fast text and simple table extraction.
-- **Unified:** **Docling** for reading-order Markdown/HTML/JSON, reliable tables, figures, page previews, and bounding boxes.
+
+This project focuses on the **PDF understanding** component of the pipeline and compares two complementary approaches:
+
+- **Baseline — pdfplumber:** prioritizes native PDF text (with OCR only when necessary), emitting word/line JSONL, baseline table CSVs, and optional figure crops for a quick, scalable extraction path.
+- **Unified — Docling:** performs layout detection and **reading-order reconstruction**, exporting clean Markdown/HTML/JSON, robust table DataFrames, figure images, page previews, and **bounding-box provenance** for every element.
+
+Together, these paths produce structured artifacts (Markdown/HTML/JSON, CSV tables, figures, page images, layout CSV/JSON) that you can inspect for fidelity (multi-column flows, borderless tables) and evaluate with text/table metrics. The outcome is a practical recipe: use **pdfplumber** for speed and simple pages; use **Docling** when you need stronger structure and reliable tables—then validate key figures against **XBRL** for correctness.
 
 ---
 
