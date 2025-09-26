@@ -4,6 +4,15 @@ __pycache__/
 *$py.class
 .venv/ 
 
+# DVC managed data outputs
+/data/parsed/
+
+# Optional: keep directory structure
+!/data/parsed/.gitkeep
+
+# DVC cache (optional)
+/.dvc/cache/
+
 keys/
 .env
 # C extensions
