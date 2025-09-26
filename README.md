@@ -1,4 +1,4 @@
-# report-intelligence
+# Report-intelligence
 > End-to-end, reproducible pipeline for extracting, parsing, and **validating SEC 10-K/10-Q filings** with dual open-source parsers, optional **Google Document AI** benchmarking, **XBRL** cross-checks, and **DVC** for full reproducibility.
 
 ## Introduction
@@ -46,71 +46,8 @@ Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (o
 ---
 ## Project Structure
 
-REPORT-INTELLIGENCE/
-│
-├── .dvc/                         # DVC internal tracking folder
-├── .hf_cache/                     # HuggingFace cache
-├── .venv/                         # Local virtual environment (not versioned usually)
-│
-├── benchmarks/                    # Benchmarking results
-│   ├── benchmark_results.json
-│   ├── benchmark_summary.csv
-│   └── benchmarks.md
-│
-├── data/                          # All datasets and pipeline outputs
-│   ├── formats/                   # Exported text/markdown/json formats
-│   ├── parsed/                    # Parsed outputs (tables, figures, layouts, pages)
-│   ├── metadata/                  # Metadata (intermediate outputs)
-│   ├── pages/                     # Flattened page-level text
-│   ├── sections/                  # Section-level parsed outputs
-│   ├── tables/                    # Consolidated table outputs
-│   ├── summary.csv                # Per-document element counts
-│   ├── staged/                    # Enriched staged outputs
-│   ├── upload/                    # Input PDFs
-│   │   ├── Apple_SEA.pdf
-│   │   └── apple_sea_tabelandtext.pdf
-│   ├── validation/                # Validation reports and outputs
-│   │   ├── automated_mapping_report.md
-│   │   ├── automated_mappings.json
-│   │   ├── mapping_analysis.csv
-│   │   ├── xbrl_extraction_summary.md
-│   │   ├── xbrl_financial_data.csv/json
-│   │   ├── xbrl_validation_report.md
-│   │   └── xbrl_validation_results.csv
-│   └── WER/                       # Evaluation results (text + tables)
-│       ├── ground_truth/          # Ground truth reference
-│       ├── parsed/                # Parsed outputs to evaluate
-│       └── metrics/               # Metrics JSON + drift plots
-│
-├── sec-edgar-filings/             # Raw SEC filings
-│   └── AAPL/10-K/...              # Example Apple 10-K filing
-│       ├── full-submission.txt
-│       └── primary-document.html
-│
-├── src/                           # Source code
-│   ├── benchmark.py               # Run pipeline benchmarks
-│   ├── build_metadata.py          # Build enriched metadata
-│   ├── compare.py                 # Compare outputs
-│   ├── compare_docai_pdfplumber.py# Compare Google DocAI vs pdfplumber
-│   ├── docling_metadata.py        # Docling metadata builder
-│   ├── docling_unified.py         # Docling unified pipeline
-│   ├── evaluate_parser.py         # WER/CER/F1 evaluator + drift plots
-│   ├── export_formate.py          # Export formats (md/json/txt)
-│   ├── layout_detect.py           # Heuristic layout detector
-│   ├── parse_all_provenance.py    # Provenance parser
-│   ├── step1_download_xbrl.py     # Download SEC XBRL filings
-│   ├── step2_parse_xbrl.py        # Parse XBRL filings
-│   ├── step3_crossverify.py       # Cross-verify parsed XBRL data
-│   ├── step4_automated_mapping.py # Automated XBRL mapping
-│   └── _init_.py (optional init for module use)
-│
-├── archdiagram.jpg                # Architecture diagram
-├── README.md                      # Project documentation
-├── requirements.txt               # Python dependencies
-├── dvc.yaml                       # DVC pipeline definition
-├── dvc.lock                       # DVC lockfile (exact data versions)
-├── .gitignore                     # Git ignore rules
-└── .DS_Store                      # System file (macOS, can be ignored)
+![Structure Diagram](structure.jpg)
+
 ---
 
 ## Project Flow
