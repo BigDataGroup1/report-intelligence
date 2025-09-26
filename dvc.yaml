@@ -64,9 +64,9 @@ stages:
       - data/parsed/docling/sections/
   
   export_formats:
-    cmd: python src/export_formats.py
+    cmd: python src/export_formate.py
     deps:
-      - src/export_formats.py
+      - src/export_formate.py
       - data/staged/
       - data/parsed/
     outs:
