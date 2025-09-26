@@ -97,4 +97,18 @@ Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (o
 
 ---
 
-## Repository Structure
+
+---
+
+## Contributions
+Name | Contribution
+---|---
+Your Name | Docling pipeline, documentation, XBRL checks
+Teammate A | pdfplumber baseline, data prep
+Teammate B | Diagramming, evaluation, DVC
+
+---
+
+## Attestation
+WE ATTEST THAT THIS WORK IS OUR OWN AND COMPLIES WITH THE POLICIES IN THE STUDENT HANDBOOK.
+
