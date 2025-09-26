@@ -101,12 +101,13 @@ Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (o
 ---
 
 ## Contributions
+
 Name | Contribution
 ---|---
-
-Teammate A | pdfplumber baseline
-Swathi Jinka Radhakrishna | Docling pipeline, docling metadata, Google DocumentAI parsing, DVC
-Teammate B | 
+Aksh Talati | pdfplumber pipeline; layout detection; pdfplumber metadata; format extraction; WER
+Swathi Jinka Radhakrishna | Docling pipeline; Docling metadata exports; Google Document AI parsing; DVC
+Tapas Desai | Comparinson of docling and pdf plumber; benchmark, XBRL extraction and validation
+ 
 
 ---
 
