@@ -1,20 +1,32 @@
 # report-intelligence
+> End-to-end, reproducible pipeline for extracting, parsing, and **validating SEC 10-K/10-Q filings** with dual open-source parsers, optional **Google Document AI** benchmarking, **XBRL** cross-checks, and **DVC** for full reproducibility.
 
-**Report Intelligence** is an end-to-end, reproducible pipeline for extracting, parsing, and **validating SEC financial filings** (10-K/10-Q). It automates EDGAR ingestion; runs dual PDF parsers (a fast **pdfplumber** baseline and a layout-aware **Docling** path); attaches provenance (reading order, tables, figures, bounding boxes); and **cross-checks values against XBRL** to flag unit/scale mismatches (e.g., “in millions” vs full dollars). The project includes optional benchmarking with Google Document AI, embeddings for search/QA, and full **DVC** tracking so every result can be reproduced and audited.
+## Introduction
+**Report Intelligence** automates EDGAR ingestion and turns raw filings into structured, verifiable data. The project runs two complementary open-source PDF paths (**pdfplumber** baseline and **Docling** unified layout), optionally benchmarks against **Google Document AI**, and validates key figures against **XBRL** to catch scaling/unit mismatches (e.g., “in millions”). All artifacts (Markdown/HTML/JSON, CSV tables, figures, page previews, layout boxes) and metrics are reproducible via **DVC**; embeddings can be built on top for search/QA over the parsed corpus.
+
+**Scope at a glance**
+- **Ingestion:** EDGAR download & staging of filings (10-K/10-Q).
+- **Parsing (Open-Source):**  
+  - **pdfplumber** — fast text-first extraction with optional OCR; baseline tables & word/line JSONL.  
+  - **Docling** — layout + reading order; Markdown/HTML/JSON; robust tables, figures, page images, and bounding-box provenance.
+- **Parsing (Cloud, optional):** **Google Document AI** for accuracy/runtime/cost comparison.
+- **Validation:** **XBRL** cross-checks and unit normalization for high-confidence numeric extraction.
+- **Reproducibility:** **DVC** pipelines track data, code, and outputs; embeddings for retrieval/QA (optional).
 
 ---
 
-# PDF Understanding Project — pdfplumber + Docling
-> Layout-aware PDF parsing with side-by-side baselines (text, tables, figures, reading order)
+# PDF Understanding Project — pdfplumber + Docling + Google Document AI
+> Layout-aware PDF parsing with side-by-side baselines and an optional cloud benchmark.
 
 ## Introduction
+This project focuses on the **PDF understanding** component of the pipeline and compares three complementary approaches:
 
-This project focuses on the **PDF understanding** component of the pipeline and compares two complementary approaches:
+- **Baseline — pdfplumber:** prioritizes native PDF text (with OCR only when required), emitting word/line JSONL, baseline table CSVs, and optional figure crops for a fast, scalable path.
+- **Unified — Docling:** performs layout detection and **reading-order reconstruction**, exporting clean Markdown/HTML/JSON, reliable table DataFrames, figures, page previews, and element-level **bounding-box provenance**.
+- **Benchmark — Google Document AI (optional):** evaluates extraction quality, runtime, and cost against the open-source paths for complex or scanned filings.
 
-- **Baseline — pdfplumber:** prioritizes native PDF text (with OCR only when necessary), emitting word/line JSONL, baseline table CSVs, and optional figure crops for a quick, scalable extraction path.
-- **Unified — Docling:** performs layout detection and **reading-order reconstruction**, exporting clean Markdown/HTML/JSON, robust table DataFrames, figure images, page previews, and **bounding-box provenance** for every element.
+Together, these paths produce consistent artifacts (Markdown/HTML/JSON, CSV tables, figures, page images, layout CSV/JSON) that can be inspected for fidelity (multi-column flows, borderless tables) and validated against **XBRL**. Use **pdfplumber** for speed on clean PDFs; use **Docling** when you need stronger structure; **Document AI** serves as an external benchmark on harder documents.
 
-Together, these paths produce structured artifacts (Markdown/HTML/JSON, CSV tables, figures, page images, layout CSV/JSON) that you can inspect for fidelity (multi-column flows, borderless tables) and evaluate with text/table metrics. The outcome is a practical recipe: use **pdfplumber** for speed and simple pages; use **Docling** when you need stronger structure and reliable tables—then validate key figures against **XBRL** for correctness.
 
 ---
 
