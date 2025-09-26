@@ -1,0 +1,96 @@
+# dvc.yaml - Complete pipeline with all stages
+stages:
+  parse_pdf:
+    cmd: python src/parse_all_provenance.py
+    deps:
+      - src/parse_all_provenance.py
+      - data/upload/
+    outs:
+      - data/parsed/Apple_SEA/pages
+      - data/parsed/Apple_SEA/tables
+      - data/parsed/Apple_SEA/Apple_SEA_words.jsonl
+      - data/parsed/Apple_SEA/ocr_pages.csv
+      - data/parsed/apple_sea_tabelandtext/pages
+      - data/parsed/apple_sea_tabelandtext/tables
+      - data/parsed/apple_sea_tabelandtext/apple_sea_tabelandtext_words.jsonl
+  
+  detect_layout:
+    cmd: python src/layout_detect.py
+    deps:
+      - src/layout_detect.py
+      - data/upload/
+    outs:
+      - data/parsed/*/layout/
+      - data/parsed/*/figures/
+  
+  parse_docling:
+    cmd: python src/docling_unified.py
+    deps:
+      - src/docling_unified.py
+      - data/upload/
+    outs:
+      - data/parsed/docling/json/
+      - data/parsed/docling/md/
+      - data/parsed/docling/tables/
+      - data/parsed/docling/figures/
+      - data/parsed/docling/pages/
+      - data/parsed/docling/layout/
+      - data/parsed/docling/summary.csv
+  
+  pdf_metadata:
+    cmd: python src/build_metadata.py
+    deps:
+      - src/build_metadata.py
+      - data/parsed/
+      - data/upload/
+    outs:
+      - data/staged/Apple_SEA.jsonl
+      - data/staged/Apple_SEA.md
+      - data/staged/apple_sea_tabelandtext.jsonl
+      - data/staged/apple_sea_tabelandtext.md
+  
+  docling_metadata:
+    cmd: python src/docling_metadata_enhanced.py
+    deps:
+      - src/docling_metadata_enhanced.py
+      - data/parsed/docling/json/
+      - data/parsed/docling/layout/
+      - data/parsed/docling/tables/
+      - data/parsed/docling/figures/
+    outs:
+      - data/parsed/docling/metadata/
+      - data/parsed/docling/sections/
+  
+  export_formats:
+    cmd: python src/export_formats.py
+    deps:
+      - src/export_formats.py
+      - data/staged/
+      - data/parsed/
+    outs:
+      - data/formats/
+  
+  compare:
+    cmd: python src/compare.py --doc Apple_SEA --page 10
+    deps:
+      - src/compare.py
+      - data/upload/Apple_SEA.pdf
+      - data/parsed/Apple_SEA/
+      - data/parsed/docling/
+    outs:
+      - data/staged/Apple_SEA_page_10_original.png
+      - data/staged/Apple_SEA_page_10_pipeline_recon.png
+      - data/staged/Apple_SEA_page_10_docling_recon.png
+      - data/staged/Apple_SEA_page_10_side_by_side.png
+      - data/staged/Apple_SEA_page_10_summary.png
+      - data/staged/Apple_SEA_page_10_comparison.pdf
+      - data/staged/Apple_SEA_page_10_comparison.md
+  
+  compare_google_ai:
+    cmd: python src/compare_docai_pdfplumber.py
+    deps:
+      - src/compare_docai_pdfplumber.py
+      - data/upload/apple_sea_tabelandtext.pdf
+      - data/parsed/apple_sea_tabelandtext/
+    outs:
+      - src/compare_googleAI/
