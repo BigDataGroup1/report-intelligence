@@ -1,2 +1,0 @@
-doc_id,use_case,winner,score_markdown,score_json,score_txt,text_cov_md,text_cov_json,text_cov_txt,struct_md,struct_json,struct_txt,tables_cells_md,tables_cells_json,tables_cells_txt,tables_in_staged,cells_in_staged_est
-Apple_SEA,semantic_search,markdown,1.0,0.764,0.6483,1.2083177560387979,1.0695604087482087,1.1456710698485888,909,194,0,3880,3880,3836,82,3880
