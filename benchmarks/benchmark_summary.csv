@@ -1,0 +1,4 @@
+component,pages,total_time_min,pages_per_min,peak_memory_mb,cost_usd
+pdfplumber,121,4.913333333333333,24.626865671641788,1118.0,
+docling,121,19.62666666666667,6.16508152173913,4225.0,
+google_document_ai,121,5.041666666666667,24.0,,1.815

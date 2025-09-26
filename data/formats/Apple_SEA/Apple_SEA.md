@@ -3,7 +3,7 @@
 
 ## Page 1
 
-![figure](data\parsed\Apple_SEA\figures\page_1\figure_1.png)
+![figure](data/parsed/Apple_SEA/figures/page_1/figure_1.png)
 
 
 ### SECURITIES AND EXCHANGE COMMISSION
@@ -21,23 +21,59 @@ Indicate by check mark whether the Registrant is a large accelerated filer, an a
 
 ## Page 3
 
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p3_1.csv`]
+| Item 1. | Business | 1 |
+| --- | --- | --- |
+| Item 1A. | Risk Factors | 5 |
+| Item 1B. | Unresolved Staff Comments | 17 |
+| Item 1C. | Cybersecurity | 17 |
+| Item 2. | Properties | 18 |
+| Item 3. | Legal Proceedings | 18 |
+| Item 4. | Mine Safety Disclosures | 18 |
 
 
 ### For the Fiscal Year Ended September 28, 2024
@@ -158,18 +194,26 @@ Item 2. Properties The Company’s headquarters is located in Cupertino, Califor
 
 ## Page 22
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p22_1.csv`]
+| Open market and privately negotiated purchases | Unnamed: 1 | 35,697 | Unnamed: 3 | $ | 224.11 | Unnamed: 6 | 35,697.1 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |  |  |
+| August 4, 2024 to August 31, 2024: |  |  |  |  |  |  |  |  |  |  |
+| Open market and privately negotiated purchases |  | 42,910 |  | $ | 221.39 |  | 42,910 |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |
+| September 1, 2024 to September 28, 2024: |  |  |  |  |  |  |  |  |  |  |
+| Open market and privately negotiated purchases |  | 33,653 |  | $ | 222.86 |  | 33,653 |  |  |  |
+| Total |  | 112,260 |  |  |  |  |  |  | $ | 89,074 |
 
 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities The Company’s common stock is traded on The Nasdaq Stock Market LLC under the symbol AAPL. Holders As of October 18, 2024, there were 23,301 shareholders of record. Purchases of Equity Securities by the Issuer and Affiliated Purchasers Share repurchase activity during the three months ended September 28, 2024 was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts): Total Number of Approximate Dollar Shares Value of Purchased as Part Shares That May Yet Be Total Number Average Price of Publicly Purchased of Shares Paid Per Announced Plans or Under the Plans or (1) Periods Purchased Share Programs Programs June 30, 2024 to August 3, 2024: Open market and privately negotiated purchases 35,697 $ 224.11 35,697 August 4, 2024 to August 31, 2024: Open market and privately negotiated purchases 42,910 $ 221.39 42,910 September 1, 2024 to September 28, 2024: Open market and privately negotiated purchases 33,653 $ 222.86 33,653 Total 112,260 $ 89,074 (1) As of September 28, 2024, the Company was authorized by the Board to purchase up to $110 billion of the Company’s common stock under a share repurchase program announced on May 2, 2024, of which $20.9 billion had been utilized. During the fourth quarter of 2024, the Company also utilized the final $4.1 billion under its previous repurchase program, which was authorized in May 2023. The programs do not obligate the Company to acquire a minimum amount of shares. Under the programs, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Exchange Act. Apple Inc. | 2024 Form 10-K | 19
 
 
 ## Page 23
 
+| S&P 500 Index | Unnamed: 1 | $ | 100 | Unnamed: 4 | $.1 | 113 | Unnamed: 7 | $.2 | 156 | Unnamed: 10 | $.3 | 131 | Unnamed: 13 | $.4 | 155 | Unnamed: 16 | $.5 | 210 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Dow Jones U.S. Technology Supersector Index |  | $ | 100 |  | $ | 146 |  | $ | 216 |  | $ | 156 |  | $ | 215 |  | $ | 322 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p23_1.csv`]
-
-![figure](data\parsed\Apple_SEA\figures\page_23\figure_1.png)
+![figure](data/parsed/Apple_SEA/figures/page_23/figure_1.png)
 
 
 ### Company Stock Performance
@@ -184,8 +228,12 @@ Item 7. Management’s Discussion and Analysis of Financial Condition and Result
 
 ## Page 25
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p25_1.csv`]
+| Europe | 101,328 | Unnamed: 2 | Unnamed: 3 | 7 | % | Unnamed: 6 | 94,294 | Unnamed: 8 | Unnamed: 9 | (1) | %.1 | Unnamed: 12 | 95,118 | Unnamed: 14 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Greater China | 66,952 |  |  | (8) | % |  | 72,559 |  |  | (2) | % |  | 74,200 |  |
+| Japan | 25,052 |  |  | 3 | % |  | 24,257 |  |  | (7) | % |  | 25,977 |  |
+| Rest of Asia Pacific | 30,658 |  |  | 4 | % |  | 29,615 |  |  | 1 | % |  | 29,375 |  |
+| Total net sales | $ | 391,035 |  | 2 | % |  | $ | 383,285 |  | (3) | % |  | $ | 394,328 |
 
 
 ### Segment Operating Performance
@@ -195,8 +243,12 @@ Segment Operating Performance The following table shows net sales by reportable 
 
 ## Page 26
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p26_1.csv`]
+| Mac | 29,984 | Unnamed: 2 | Unnamed: 3 | 2 | % | Unnamed: 6 | 29,357 | Unnamed: 8 | Unnamed: 9 | (27) | %.1 | Unnamed: 12 | 40,177 | Unnamed: 14 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| iPad | 26,694 |  |  | (6) | % |  | 28,300 |  |  | (3) | % |  | 29,292 |  |
+| Wearables, Home and Accessories | 37,005 |  |  | (7) | % |  | 39,845 |  |  | (3) | % |  | 41,241 |  |
+| Services (1) | 96,169 |  |  | 13 | % |  | 85,200 |  |  | 9 | % |  | 78,129 |  |
+| Total net sales | $ | 391,035 |  | 2 | % |  | $ | 383,285 |  | (3) | % |  | $ | 394,328 |
 
 
 ### Products and Services Performance
@@ -206,14 +258,20 @@ Products and Services Performance The following table shows net sales by categor
 
 ## Page 27
 
+| Products | $ | 109,633 | Unnamed: 3 | $.1 | 108,803 | $.2 | 114,728 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Services | 71,050 |  |  | 60,345 |  | 56,054 |  |
+| Total gross margin | $ | 180,683 |  | $ | 169,148 | $ | 170,782 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p27_1.csv`]
+| Products | $ | 109,633 | Unnamed: 3 | $.1 | 108,803 | $.2 | 114,728 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Services | 71,050 |  |  | 60,345 |  | 56,054 |  |
+| Total gross margin | $ | 180,683 |  | $ | 169,148 | $ | 170,782 |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p27_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p27_1.csv`]
+| Products | $ | 109,633 | Unnamed: 3 | $.1 | 108,803 | $.2 | 114,728 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Services | 71,050 |  |  | 60,345 |  | 56,054 |  |
+| Total gross margin | $ | 180,683 |  | $ | 169,148 | $ | 170,782 |
 
 
 ### 2024 2023 2022
@@ -223,8 +281,9 @@ Gross Margin Products and Services gross margin and gross margin percentage for 
 
 ## Page 28
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p28_1.csv`]
+| Effective tax rate | 24.1 | % | Unnamed: 3 | 14.7 | %.1 | Unnamed: 6 | 16.2 | %.2 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Statutory federal income tax rate | 21 | % |  | 21 | % |  | 21 | % |
 
 
 ### Provision for Income Taxes
@@ -242,8 +301,8 @@ State Aid Decision Tax Payable As of September 28, 2024, the Company had an obli
 
 ## Page 30
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p30_1.csv`]
+| Term debt | Unnamed: 1 | 100 basis points, all tenors | Unnamed: 3 | Increase in annual interest expense | Unnamed: 5 | $ | 139 | Unnamed: 8 | $.1 | 194 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 
 ### Item 7A. Quantitative and Qualitative Disclosures About Market Risk
@@ -253,8 +312,13 @@ Item 7A. Quantitative and Qualitative Disclosures About Market Risk The Company 
 
 ## Page 31
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p31_1.csv`]
+| Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 | Unnamed: 1 | 30 |
+| --- | --- | --- |
+| Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023 |  |  |
+| Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 |  | 32.0 |
+| Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 |  |  |
+| Notes to Consolidated Financial Statements |  | 34.0 |
+| Reports of Independent Registered Public Accounting Firm |  |  |
 
 
 ### Item 8. Financial Statements and Supplementary Data
@@ -264,8 +328,35 @@ Item 8. Financial Statements and Supplementary Data Index to Consolidated Financ
 
 ## Page 32
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p32_1.csv`]
+| Products | $ | 294,866 | Unnamed: 3 | $.1 | 298,085 | Unnamed: 6 | $.2 | 316,199 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Services | 96,169 |  |  | 85,200 |  |  | 78,129 |  |
+| Total net sales | 391,035 |  |  | 383,285 |  |  | 394,328 |  |
+|  |  |  |  |  |  |  |  |  |
+| Cost of sales: |  |  |  |  |  |  |  |  |
+| Products | 185,233 |  |  | 189,282 |  |  | 201,471 |  |
+| Services | 25,119 |  |  | 24,855 |  |  | 22,075 |  |
+| Total cost of sales | 210,352 |  |  | 214,137 |  |  | 223,546 |  |
+| Gross margin | 180,683 |  |  | 169,148 |  |  | 170,782 |  |
+|  |  |  |  |  |  |  |  |  |
+| Operating expenses: |  |  |  |  |  |  |  |  |
+| Research and development | 31,370 |  |  | 29,915 |  |  | 26,251 |  |
+| Selling, general and administrative | 26,097 |  |  | 24,932 |  |  | 25,094 |  |
+| Total operating expenses | 57,467 |  |  | 54,847 |  |  | 51,345 |  |
+|  |  |  |  |  |  |  |  |  |
+| Operating income | 123,216 |  |  | 114,301 |  |  | 119,437 |  |
+| Other income/(expense), net | 269 |  |  | (565) |  |  | (334) |  |
+| Income before provision for income taxes | 123,485 |  |  | 113,736 |  |  | 119,103 |  |
+| Provision for income taxes | 29,749 |  |  | 16,741 |  |  | 19,300 |  |
+| Net income | $ | 93,736 |  | $ | 96,995 |  | $ | 99,803 |
+|  |  |  |  |  |  |  |  |  |
+| Earnings per share: |  |  |  |  |  |  |  |  |
+| Basic | $ | 6.11 |  | $ | 6.16 |  | $ | 6.15 |
+| Diluted | $ | 6.08 |  | $ | 6.13 |  | $ | 6.11 |
+|  |  |  |  |  |  |  |  |  |
+| Shares used in computing earnings per share: |  |  |  |  |  |  |  |  |
+| Basic | 15,343,783 |  |  | 15,744,231 |  |  | 16,215,963 |  |
+| Diluted | 15,408,095 |  |  | 15,812,547 |  |  | 16,325,819 |  |
 
 
 ### CONSOLIDATED STATEMENTS OF OPERATIONS
@@ -275,8 +366,22 @@ Apple Inc. CONSOLIDATED STATEMENTS OF OPERATIONS (In millions, except number of 
 
 ## Page 33
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p33_1.csv`]
+| Other comprehensive income/(loss): | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Change in foreign currency translation, net of tax | 395 |  |  | (765) |  |  | (1,511) |  |
+|  |  |  |  |  |  |  |  |  |
+| Change in unrealized gains/losses on derivative instruments, net of tax: |  |  |  |  |  |  |  |  |
+| Change in fair value of derivative instruments | (832) |  |  | 323 |  |  | 3,212 |  |
+| Adjustment for net (gains)/losses realized and included in net income | (1,337) |  |  | (1,717) |  |  | (1,074) |  |
+| Total change in unrealized gains/losses on derivative instruments | (2,169) |  |  | (1,394) |  |  | 2,138 |  |
+|  |  |  |  |  |  |  |  |  |
+| Change in unrealized gains/losses on marketable debt securities, net of tax: |  |  |  |  |  |  |  |  |
+| Change in fair value of marketable debt securities | 5,850 |  |  | 1,563 |  |  | (12,104) |  |
+| Adjustment for net (gains)/losses realized and included in net income | 204 |  |  | 253 |  |  | 205 |  |
+| Total change in unrealized gains/losses on marketable debt securities | 6,054 |  |  | 1,816 |  |  | (11,899) |  |
+|  |  |  |  |  |  |  |  |  |
+| Total other comprehensive income/(loss) | 4,280 |  |  | (343) |  |  | (11,272) |  |
+| Total comprehensive income | $ | 98,016 |  | $ | 96,652 |  | $ | 88,531 |
 
 
 ### CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
@@ -286,8 +391,48 @@ Apple Inc. CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In millions) Years e
 
 ## Page 34
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p34_1.csv`]
+| ASSETS: | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 |
+| --- | --- | --- | --- | --- | --- |
+| Current assets: |  |  |  |  |  |
+| Cash and cash equivalents | $ | 29,943 |  | $ | 29,965 |
+| Marketable securities | 35,228 |  |  | 31,590 |  |
+| Accounts receivable, net | 33,410 |  |  | 29,508 |  |
+| Vendor non-trade receivables | 32,833 |  |  | 31,477 |  |
+| Inventories | 7,286 |  |  | 6,331 |  |
+| Other current assets | 14,287 |  |  | 14,695 |  |
+| Total current assets | 152,987 |  |  | 143,566 |  |
+|  |  |  |  |  |  |
+| Non-current assets: |  |  |  |  |  |
+| Marketable securities | 91,479 |  |  | 100,544 |  |
+| Property, plant and equipment, net | 45,680 |  |  | 43,715 |  |
+| Other non-current assets | 74,834 |  |  | 64,758 |  |
+| Total non-current assets | 211,993 |  |  | 209,017 |  |
+| Total assets | $ | 364,980 |  | $ | 352,583 |
+|  |  |  |  |  |  |
+| LIABILITIES AND SHAREHOLDERS’ EQUITY: |  |  |  |  |  |
+| Current liabilities: |  |  |  |  |  |
+| Accounts payable | $ | 68,960 |  | $ | 62,611 |
+| Other current liabilities | 78,304 |  |  | 58,829 |  |
+| Deferred revenue | 8,249 |  |  | 8,061 |  |
+| Commercial paper | 9,967 |  |  | 5,985 |  |
+| Term debt | 10,912 |  |  | 9,822 |  |
+| Total current liabilities | 176,392 |  |  | 145,308 |  |
+|  |  |  |  |  |  |
+| Non-current liabilities: |  |  |  |  |  |
+| Term debt | 85,750 |  |  | 95,281 |  |
+| Other non-current liabilities | 45,888 |  |  | 49,848 |  |
+| Total non-current liabilities | 131,638 |  |  | 145,129 |  |
+| Total liabilities | 308,030 |  |  | 290,437 |  |
+|  |  |  |  |  |  |
+| Commitments and contingencies |  |  |  |  |  |
+|  |  |  |  |  |  |
+| Shareholders’ equity: |  |  |  |  |  |
+| Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 15,116,786
+and 15,550,061 shares issued and outstanding, respectively | 83,276 |  |  | 73,812 |  |
+| Accumulated deficit | (19,154) |  |  | (214) |  |
+| Accumulated other comprehensive loss | (7,172) |  |  | (11,452) |  |
+| Total shareholders’ equity | 56,950 |  |  | 62,146 |  |
+| Total liabilities and shareholders’ equity | $ | 364,980 |  | $ | 352,583 |
 
 
 ### CONSOLIDATED BALANCE SHEETS
@@ -297,8 +442,31 @@ Apple Inc. CONSOLIDATED BALANCE SHEETS (In millions, except number of shares, wh
 
 ## Page 35
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p35_1.csv`]
+| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Common stock and additional paid-in capital: |  |  |  |  |  |  |  |  |
+| Beginning balances | 73,812 |  |  | 64,849 |  |  | 57,365 |  |
+| Common stock issued | 1,423 |  |  | 1,346 |  |  | 1,175 |  |
+| Common stock withheld related to net share settlement of equity awards | (3,993) |  |  | (3,521) |  |  | (2,971) |  |
+| Share-based compensation | 12,034 |  |  | 11,138 |  |  | 9,280 |  |
+| Ending balances | 83,276 |  |  | 73,812 |  |  | 64,849 |  |
+|  |  |  |  |  |  |  |  |  |
+| Retained earnings/(Accumulated deficit): |  |  |  |  |  |  |  |  |
+| Beginning balances | (214) |  |  | (3,068) |  |  | 5,562 |  |
+| Net income | 93,736 |  |  | 96,995 |  |  | 99,803 |  |
+| Dividends and dividend equivalents declared | (15,218) |  |  | (14,996) |  |  | (14,793) |  |
+| Common stock withheld related to net share settlement of equity awards | (1,612) |  |  | (2,099) |  |  | (3,454) |  |
+| Common stock repurchased | (95,846) |  |  | (77,046) |  |  | (90,186) |  |
+| Ending balances | (19,154) |  |  | (214) |  |  | (3,068) |  |
+|  |  |  |  |  |  |  |  |  |
+| Accumulated other comprehensive income/(loss): |  |  |  |  |  |  |  |  |
+| Beginning balances | (11,452) |  |  | (11,109) |  |  | 163 |  |
+| Other comprehensive income/(loss) | 4,280 |  |  | (343) |  |  | (11,272) |  |
+| Ending balances | (7,172) |  |  | (11,452) |  |  | (11,109) |  |
+|  |  |  |  |  |  |  |  |  |
+| Total shareholders’ equity, ending balances | $ | 56,950 |  | $ | 62,146 |  | $ | 50,672 |
+|  |  |  |  |  |  |  |  |  |
+| Dividends and dividend equivalents declared per share or RSU | $ | 0.98 |  | $ | 0.94 |  | $ | 0.90 |
 
 
 ### CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
@@ -308,8 +476,46 @@ Apple Inc. CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (In millions, excep
 
 ## Page 36
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p36_1.csv`]
+| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operating activities: |  |  |  |  |  |  |  |  |
+| Net income | 93,736 |  |  | 96,995 |  |  | 99,803 |  |
+| Adjustments to reconcile net income to cash generated by operating activities: |  |  |  |  |  |  |  |  |
+| Depreciation and amortization | 11,445 |  |  | 11,519 |  |  | 11,104 |  |
+| Share-based compensation expense | 11,688 |  |  | 10,833 |  |  | 9,038 |  |
+| Other | (2,266) |  |  | (2,227) |  |  | 1,006 |  |
+| Changes in operating assets and liabilities: |  |  |  |  |  |  |  |  |
+| Accounts receivable, net | (3,788) |  |  | (1,688) |  |  | (1,823) |  |
+| Vendor non-trade receivables | (1,356) |  |  | 1,271 |  |  | (7,520) |  |
+| Inventories | (1,046) |  |  | (1,618) |  |  | 1,484 |  |
+| Other current and non-current assets | (11,731) |  |  | (5,684) |  |  | (6,499) |  |
+| Accounts payable | 6,020 |  |  | (1,889) |  |  | 9,448 |  |
+| Other current and non-current liabilities | 15,552 |  |  | 3,031 |  |  | 6,110 |  |
+| Cash generated by operating activities | 118,254 |  |  | 110,543 |  |  | 122,151 |  |
+|  |  |  |  |  |  |  |  |  |
+| Investing activities: |  |  |  |  |  |  |  |  |
+| Purchases of marketable securities | (48,656) |  |  | (29,513) |  |  | (76,923) |  |
+| Proceeds from maturities of marketable securities | 51,211 |  |  | 39,686 |  |  | 29,917 |  |
+| Proceeds from sales of marketable securities | 11,135 |  |  | 5,828 |  |  | 37,446 |  |
+| Payments for acquisition of property, plant and equipment | (9,447) |  |  | (10,959) |  |  | (10,708) |  |
+| Other | (1,308) |  |  | (1,337) |  |  | (2,086) |  |
+| Cash generated by/(used in) investing activities | 2,935 |  |  | 3,705 |  |  | (22,354) |  |
+|  |  |  |  |  |  |  |  |  |
+| Financing activities: |  |  |  |  |  |  |  |  |
+| Payments for taxes related to net share settlement of equity awards | (5,441) |  |  | (5,431) |  |  | (6,223) |  |
+| Payments for dividends and dividend equivalents | (15,234) |  |  | (15,025) |  |  | (14,841) |  |
+| Repurchases of common stock | (94,949) |  |  | (77,550) |  |  | (89,402) |  |
+| Proceeds from issuance of term debt, net | — |  |  | 5,228 |  |  | 5,465 |  |
+| Repayments of term debt | (9,958) |  |  | (11,151) |  |  | (9,543) |  |
+| Proceeds from/(Repayments of) commercial paper, net | 3,960 |  |  | (3,978) |  |  | 3,955 |  |
+| Other | (361) |  |  | (581) |  |  | (160) |  |
+| Cash used in financing activities | (121,983) |  |  | (108,488) |  |  | (110,749) |  |
+|  |  |  |  |  |  |  |  |  |
+| Increase/(Decrease) in cash, cash equivalents, and restricted cash and cash equivalents | (794) |  |  | 5,760 |  |  | (10,952) |  |
+| Cash, cash equivalents, and restricted cash and cash equivalents, ending balances | $ | 29,943 |  | $ | 30,737 |  | $ | 24,977 |
+|  |  |  |  |  |  |  |  |  |
+| Supplemental cash flow disclosure: |  |  |  |  |  |  |  |  |
+| Cash paid for income taxes, net | $ | 26,102 |  | $ | 18,679 |  | $ | 19,573 |
 
 
 ### CONSOLIDATED STATEMENTS OF CASH FLOWS
@@ -327,8 +533,12 @@ Apple Inc. Notes to Consolidated Financial Statements Note 1 – Summary of Sign
 
 ## Page 38
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p38_1.csv`]
+| Mac | 29,984 | Unnamed: 2 | Unnamed: 3 | 29,357 | Unnamed: 5 | Unnamed: 6 | 40,177 | Unnamed: 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| iPad | 26,694 |  |  | 28,300 |  |  | 29,292 |  |
+| Wearables, Home and Accessories | 37,005 |  |  | 39,845 |  |  | 41,241 |  |
+| Services (1) | 96,169 |  |  | 85,200 |  |  | 78,129 |  |
+| Total net sales | $ | 391,035 |  | $ | 383,285 |  | $ | 394,328 |
 
 
 ### Note 2 – Revenue
@@ -338,19 +548,49 @@ Note 2 – Revenue The Company recognizes revenue at the amount to which it expe
 
 ## Page 39
 
+| Net income | $ | 93,736 | Unnamed: 3 | $.1 | 96,995 | Unnamed: 6 | $.2 | 99,803 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |
+| Denominator: |  |  |  |  |  |  |  |  |
+| Weighted-average basic shares outstanding | 15,343,783 |  |  | 15,744,231 |  |  | 16,215,963 |  |
+| Effect of dilutive share-based awards | 64,312 |  |  | 68,316 |  |  | 109,856 |  |
+| Weighted-average diluted shares | 15,408,095 |  |  | 15,812,547 |  |  | 16,325,819 |  |
+|  |  |  |  |  |  |  |  |  |
+| Basic earnings per share | $ | 6.11 |  | $ | 6.16 |  | $ | 6.15 |
+| Diluted earnings per share | $ | 6.08 |  | $ | 6.13 |  | $ | 6.11 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p39_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p39_1.csv`]
+| Net income | $ | 93,736 | Unnamed: 3 | $.1 | 96,995 | Unnamed: 6 | $.2 | 99,803 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |
+| Denominator: |  |  |  |  |  |  |  |  |
+| Weighted-average basic shares outstanding | 15,343,783 |  |  | 15,744,231 |  |  | 16,215,963 |  |
+| Effect of dilutive share-based awards | 64,312 |  |  | 68,316 |  |  | 109,856 |  |
+| Weighted-average diluted shares | 15,408,095 |  |  | 15,812,547 |  |  | 16,325,819 |  |
+|  |  |  |  |  |  |  |  |  |
+| Basic earnings per share | $ | 6.11 |  | $ | 6.16 |  | $ | 6.15 |
+| Diluted earnings per share | $ | 6.08 |  | $ | 6.13 |  | $ | 6.11 |
 
 The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2024, 2023 and 2022, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales. As of September 28, 2024 and September 30, 2023, the Company had total deferred revenue of $12.8 billion and $12.1 billion, respectively. As of September 28, 2024, the Company expects 64% of total deferred revenue to be realized in less than a year, 25% within one-to-two years, 9% within two-to-three years and 2% in greater than three years. Note 3 – Earnings Per Share The following table shows the computation of basic and diluted earnings per share for 2024, 2023 and 2022 (net income in millions and shares in thousands): 2024 2023 2022 Numerator: Net income $ 93,736 $ 96,995 $ 99,803 Denominator: Weighted-average basic shares outstanding 15,343,783 15,744,231 16,215,963 Effect of dilutive share-based awards 64,312 68,316 109,856 Weighted-average diluted shares 15,408,095 15,812,547 16,325,819 Basic earnings per share $ 6.11 $ 6.16 $ 6.15 Diluted earnings per share $ 6.08 $ 6.13 $ 6.11 Approximately 24 million restricted stock units (“RSUs”) were excluded from the computation of diluted earnings per share for 2023 because their effect would have been antidilutive. Note 4 – Financial Instruments Cash, Cash Equivalents and Marketable Securities The following tables show the Company’s cash, cash equivalents and marketable securities by significant investment category as of September 28, 2024 and September 30, 2023 (in millions): 2024 Cash and Current Non-Current Adjusted Unrealized Unrealized Fair Cash Marketable Marketable Cost Gains Losses Value Equivalents Securities Securities Cash $ 27,199 $ — $ — $ 27,199 $ 27,199 $ — $ — Level 1: Money market funds 778 — — 778 778 — — Mutual funds 515 105 (3) 617 — 617 — Subtotal 1,293 105 (3) 1,395 778 617 — (1) Level 2 : U.S. Treasury securities 16,150 45 (516) 15,679 212 4,087 11,380 U.S. agency securities 5,431 — (272) 5,159 155 703 4,301 Non-U.S. government securities 17,959 93 (484) 17,568 1,158 10,810 5,600 Certificates of deposit and time deposits 873 — — 873 387 478 8 Commercial paper 1,066 — — 1,066 28 1,038 — Corporate debt securities 65,622 270 (1,953) 63,939 26 16,027 47,886 Municipal securities 412 — (7) 405 — 190 215 Mortgage- and asset-backed securities 24,595 175 (1,403) 23,367 — 1,278 22,089 Subtotal 132,108 583 (4,635) 128,056 1,966 34,611 91,479 $ 160,600 $ 688 $ (4,638) $ 156,650 $ 29,943 $ 35,228 $ 91,479 (2)(3) Total Apple Inc. | 2024 Form 10-K | 36
 
 
 ## Page 40
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p40_1.csv`]
+| Level 1: | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14 | Unnamed: 15 | Unnamed: 16 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Money market funds | 481 |  | — |  | — |  | 481 |  |  | 481 |  |  | — |  | — |  |
+| Mutual funds and equity securities | 442 |  | 12 |  | (26) |  | 428 |  |  | — |  |  | 428 |  | — |  |
+| Subtotal | 923 |  | 12 |  | (26) |  | 909 |  |  | 481 |  |  | 428 |  | — |  |
+| Level 2 (1): |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| U.S. Treasury securities | 19,406 |  | — |  | (1,292) |  | 18,114 |  |  | 35 |  |  | 5,468 |  | 12,611 |  |
+| U.S. agency securities | 5,736 |  | — |  | (600) |  | 5,136 |  |  | 36 |  |  | 271 |  | 4,829 |  |
+| Non-U.S. government securities | 17,533 |  | 6 |  | (1,048) |  | 16,491 |  |  | — |  |  | 11,332 |  | 5,159 |  |
+| Certificates of deposit and time deposits | 1,354 |  | — |  | — |  | 1,354 |  |  | 1,034 |  |  | 320 |  | — |  |
+| Commercial paper | 608 |  | — |  | — |  | 608 |  |  | — |  |  | 608 |  | — |  |
+| Corporate debt securities | 76,840 |  | 6 |  | (5,956) |  | 70,890 |  |  | 20 |  |  | 12,627 |  | 58,243 |  |
+| Municipal securities | 628 |  | — |  | (26) |  | 602 |  |  | — |  |  | 192 |  | 410 |  |
+| Mortgage- and asset-backed securities | 22,365 |  | 6 |  | (2,735) |  | 19,636 |  |  | — |  |  | 344 |  | 19,292 |  |
+| Subtotal | 144,470 |  | 18 |  | (11,657) |  | 132,831 |  |  | 1,125 |  |  | 31,162 |  | 100,544 |  |
+| Total (3) | $ | 173,752 | $ | 30.0 | $ | (11,683) | $ | 162,099 |  | $ | 29,965 |  | $ | 31,590 | $ | 100,544 |
 
 
 ### Cash and Current Non-Current
@@ -360,28 +600,52 @@ The Company’s proportion of net sales by disaggregated revenue source was gene
 
 ## Page 41
 
+| Foreign exchange contracts | $ | 64,069 | Unnamed: 3 | $.1 | 74,730 |
+| --- | --- | --- | --- | --- | --- |
+| Interest rate contracts | $ | 14,575 |  | $ | 19,375 |
+|  |  |  |  |  |  |
+| Derivative instruments not designated as accounting hedges: |  |  |  |  |  |
+| Foreign exchange contracts | $ | 91,493 |  | $ | 104,777 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p41_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p41_1.csv`]
+| Foreign exchange contracts | $ | 64,069 | Unnamed: 3 | $.1 | 74,730 |
+| --- | --- | --- | --- | --- | --- |
+| Interest rate contracts | $ | 14,575 |  | $ | 19,375 |
+|  |  |  |  |  |  |
+| Derivative instruments not designated as accounting hedges: |  |  |  |  |  |
+| Foreign exchange contracts | $ | 91,493 |  | $ | 104,777 |
 
 To protect the Company’s foreign currency–denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of September 28, 2024, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt–related foreign currency transactions is 18 years. The Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange rates, as well as to offset a portion of the foreign currency gains and losses generated by the remeasurement of certain assets and liabilities denominated in non-functional currencies. Interest Rate Risk To protect the Company’s term debt or marketable securities from fluctuations in interest rates, the Company may use interest rate swaps, options or other instruments. The Company designates these instruments as either cash flow or fair value hedges. The notional amounts of the Company’s outstanding derivative instruments as of September 28, 2024 and September 30, 2023 were as follows (in millions): 2024 2023 Derivative instruments designated as accounting hedges: Foreign exchange contracts $ 64,069 $ 74,730 Interest rate contracts $ 14,575 $ 19,375 Derivative instruments not designated as accounting hedges: Foreign exchange contracts $ 91,493 $ 104,777 The carrying amounts of the Company’s hedged items in fair value hedges as of September 28, 2024 and September 30, 2023 were as follows (in millions): 2024 2023 Hedged assets/(liabilities): Current and non-current marketable securities $ — $ 14,433 Current and non-current term debt $ (13,505) $ (18,247) Accounts Receivable Trade Receivables The Company’s third-party cellular network carriers accounted for 38% and 41% of total trade receivables as of September 28, 2024 and September 30, 2023, respectively. The Company requires third-party credit support or collateral from certain customers to limit credit risk. Vendor Non-Trade Receivables The Company has non-trade receivables from certain of its manufacturing vendors resulting from the sale of components to these vendors who manufacture subassemblies or assemble final products for the Company. The Company purchases these components directly from suppliers. The Company does not reflect the sale of these components in products net sales. Rather, the Company recognizes any gain on these sales as a reduction of products cost of sales when the related final products are sold by the Company. As of September 28, 2024, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 44% and 23%. As of September 30, 2023, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 48% and 23%. Apple Inc. | 2024 Form 10-K | 38
 
 
 ## Page 42
 
+| Machinery, equipment and internal-use software | 80,205 | Unnamed: 2 | Unnamed: 3 | 78,314 | Unnamed: 5 |
+| --- | --- | --- | --- | --- | --- |
+| Leasehold improvements | 14,233 |  |  | 12,839 |  |
+| Gross property, plant and equipment | 119,128 |  |  | 114,599 |  |
+| Accumulated depreciation | (73,448) |  |  | (70,884) |  |
+| Total property, plant and equipment, net | $ | 45,680 |  | $ | 43,715 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p42_1.csv`]
+| Machinery, equipment and internal-use software | 80,205 | Unnamed: 2 | Unnamed: 3 | 78,314 | Unnamed: 5 |
+| --- | --- | --- | --- | --- | --- |
+| Leasehold improvements | 14,233 |  |  | 12,839 |  |
+| Gross property, plant and equipment | 119,128 |  |  | 114,599 |  |
+| Accumulated depreciation | (73,448) |  |  | (70,884) |  |
+| Total property, plant and equipment, net | $ | 45,680 |  | $ | 43,715 |
 
+| Machinery, equipment and internal-use software | 80,205 | Unnamed: 2 | Unnamed: 3 | 78,314 | Unnamed: 5 |
+| --- | --- | --- | --- | --- | --- |
+| Leasehold improvements | 14,233 |  |  | 12,839 |  |
+| Gross property, plant and equipment | 119,128 |  |  | 114,599 |  |
+| Accumulated depreciation | (73,448) |  |  | (70,884) |  |
+| Total property, plant and equipment, net | $ | 45,680 |  | $ | 43,715 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p42_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p42_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p42_1.csv`]
+| Machinery, equipment and internal-use software | 80,205 | Unnamed: 2 | Unnamed: 3 | 78,314 | Unnamed: 5 |
+| --- | --- | --- | --- | --- | --- |
+| Leasehold improvements | 14,233 |  |  | 12,839 |  |
+| Gross property, plant and equipment | 119,128 |  |  | 114,599 |  |
+| Accumulated depreciation | (73,448) |  |  | (70,884) |  |
+| Total property, plant and equipment, net | $ | 45,680 |  | $ | 43,715 |
 
 
 ### Note 5 – Property, Plant and Equipment
@@ -391,22 +655,78 @@ Note 5 – Property, Plant and Equipment The following table shows the Company�
 
 ## Page 43
 
+| Current | $ | 5,571 | Unnamed: 3 | $.1 | 9,445 | Unnamed: 6 | $.2 | 7,890 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Deferred | (3,080) |  |  | (3,644) |  |  | (2,265) |  |
+| Total | 2,491 |  |  | 5,801 |  |  | 5,625 |  |
+| State: |  |  |  |  |  |  |  |  |
+| Current | 1,726 |  |  | 1,570 |  |  | 1,519 |  |
+| Deferred | (298) |  |  | (49) |  |  | 84 |  |
+| Total | 1,428 |  |  | 1,521 |  |  | 1,603 |  |
+| Foreign: |  |  |  |  |  |  |  |  |
+| Current | 25,483 |  |  | 8,750 |  |  | 8,996 |  |
+| Deferred | 347 |  |  | 669 |  |  | 3,076 |  |
+| Total | 25,830 |  |  | 9,419 |  |  | 12,072 |  |
+| Provision for income taxes | $ | 29,749 |  | $ | 16,741 |  | $ | 19,300 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p43_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p43_1.csv`]
+| Current | $ | 5,571 | Unnamed: 3 | $.1 | 9,445 | Unnamed: 6 | $.2 | 7,890 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Deferred | (3,080) |  |  | (3,644) |  |  | (2,265) |  |
+| Total | 2,491 |  |  | 5,801 |  |  | 5,625 |  |
+| State: |  |  |  |  |  |  |  |  |
+| Current | 1,726 |  |  | 1,570 |  |  | 1,519 |  |
+| Deferred | (298) |  |  | (49) |  |  | 84 |  |
+| Total | 1,428 |  |  | 1,521 |  |  | 1,603 |  |
+| Foreign: |  |  |  |  |  |  |  |  |
+| Current | 25,483 |  |  | 8,750 |  |  | 8,996 |  |
+| Deferred | 347 |  |  | 669 |  |  | 3,076 |  |
+| Total | 25,830 |  |  | 9,419 |  |  | 12,072 |  |
+| Provision for income taxes | $ | 29,749 |  | $ | 16,741 |  | $ | 19,300 |
 
 The Company and Ireland appealed the State Aid Decision to the General Court of the Court of Justice of the European Union (the “General Court”). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the Commission appealed the General Court’s decision to the European Court of Justice (the “ECJ”) and a hearing was held on May 23, 2023. On September 10, 2024, the ECJ announced that it had set aside the 2020 judgment of the General Court and confirmed the Commission’s 2016 State Aid Decision. As a result, during the fourth quarter of 2024 the Company recorded a one-time income tax charge of $10.2 billion, net, which represents $15.8 billion payable to Ireland via release of the escrow, partially offset by a U.S. foreign tax credit of $4.8 billion and a decrease in unrecognized tax benefits of $823 million. Provision for Income Taxes and Effective Tax Rate The provision for income taxes for 2024, 2023 and 2022, consisted of the following (in millions): 2024 2023 2022 Federal: Current $ 5,571 $ 9,445 $ 7,890 Deferred (3,080) (3,644) (2,265) Total 2,491 5,801 5,625 State: Current 1,726 1,570 1,519 Deferred (298) (49) 84 Total 1,428 1,521 1,603 Foreign: Current 25,483 8,750 8,996 Deferred 347 669 3,076 Total 25,830 9,419 12,072 Provision for income taxes $ 29,749 $ 16,741 $ 19,300 Foreign pretax earnings were $77.3 billion, $72.9 billion and $71.3 billion in 2024, 2023 and 2022, respectively. A reconciliation of the provision for income taxes to the amount computed by applying the statutory federal income tax rate (21% in 2024, 2023 and 2022) to income before provision for income taxes for 2024, 2023 and 2022, is as follows (dollars in millions): 2024 2023 2022 Computed expected tax $ 25,932 $ 23,885 $ 25,012 State taxes, net of federal effect 1,162 1,124 1,518 Impact of the State Aid Decision 10,246 — — Earnings of foreign subsidiaries (5,311) (5,744) (4,366) Research and development credit, net (1,397) (1,212) (1,153) Excess tax benefits from equity awards (893) (1,120) (1,871) Other 10 (192) 160 Provision for income taxes $ 29,749 $ 16,741 $ 19,300 Effective tax rate 24.1 % 14.7 % 16.2 % Apple Inc. | 2024 Form 10-K | 40
 
 
 ## Page 44
 
+| Capitalized research and development | $ | 10,739 | Unnamed: 3 | $.1 | 6,294 |
+| --- | --- | --- | --- | --- | --- |
+| Tax credit carryforwards | 8,856 |  |  | 8,302 |  |
+| Accrued liabilities and other reserves | 6,114 |  |  | 6,365 |  |
+| Deferred revenue | 3,413 |  |  | 4,571 |  |
+| Lease liabilities | 2,410 |  |  | 2,421 |  |
+| Unrealized losses | 1,173 |  |  | 2,447 |  |
+| Other | 2,168 |  |  | 2,343 |  |
+| Total deferred tax assets | 34,873 |  |  | 32,743 |  |
+| Less: Valuation allowance | (8,866) |  |  | (8,374) |  |
+| Total deferred tax assets, net | 26,007 |  |  | 24,369 |  |
+| Deferred tax liabilities: |  |  |  |  |  |
+| Depreciation | 2,551 |  |  | 1,998 |  |
+| Right-of-use assets | 2,125 |  |  | 2,179 |  |
+| Minimum tax on foreign earnings | 1,674 |  |  | 1,940 |  |
+| Unrealized gains | — |  |  | 511 |  |
+| Other | 455 |  |  | 490 |  |
+| Total deferred tax liabilities | 6,805 |  |  | 7,118 |  |
+| Net deferred tax assets | $ | 19,202 |  | $ | 17,251 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p44_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p44_1.csv`]
+| Capitalized research and development | $ | 10,739 | Unnamed: 3 | $.1 | 6,294 |
+| --- | --- | --- | --- | --- | --- |
+| Tax credit carryforwards | 8,856 |  |  | 8,302 |  |
+| Accrued liabilities and other reserves | 6,114 |  |  | 6,365 |  |
+| Deferred revenue | 3,413 |  |  | 4,571 |  |
+| Lease liabilities | 2,410 |  |  | 2,421 |  |
+| Unrealized losses | 1,173 |  |  | 2,447 |  |
+| Other | 2,168 |  |  | 2,343 |  |
+| Total deferred tax assets | 34,873 |  |  | 32,743 |  |
+| Less: Valuation allowance | (8,866) |  |  | (8,374) |  |
+| Total deferred tax assets, net | 26,007 |  |  | 24,369 |  |
+| Deferred tax liabilities: |  |  |  |  |  |
+| Depreciation | 2,551 |  |  | 1,998 |  |
+| Right-of-use assets | 2,125 |  |  | 2,179 |  |
+| Minimum tax on foreign earnings | 1,674 |  |  | 1,940 |  |
+| Unrealized gains | — |  |  | 511 |  |
+| Other | 455 |  |  | 490 |  |
+| Total deferred tax liabilities | 6,805 |  |  | 7,118 |  |
+| Net deferred tax assets | $ | 19,202 |  | $ | 17,251 |
 
 
 ### Deferred Tax Assets and Liabilities
@@ -416,11 +736,29 @@ Deferred Tax Assets and Liabilities As of September 28, 2024 and September 30, 2
 
 ## Page 45
 
+| Operating leases | Unnamed: 1 | Other non-current assets | Unnamed: 3 | $ | 10,234 | $.1 | 10,661 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Finance leases |  | Property, plant and equipment, net |  | 1,069 |  | 1,015 |  |
+| Total right-of-use assets |  |  |  | $ | 11,303 | $ | 11,676 |
+|  |  |  |  |  |  |  |  |
+| Lease liabilities: |  |  |  |  |  |  |  |
+| Operating leases |  | Other current liabilities |  | $ | 1,488 | $ | 1,410 |
+|  |  | Other non-current liabilities |  | 10,046 |  | 10,408 |  |
+| Finance leases |  | Other current liabilities |  | 144 |  | 165 |  |
+|  |  | Other non-current liabilities |  | 752 |  | 859 |  |
+| Total lease liabilities |  |  |  | $ | 12,430 | $ | 12,842 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p45_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p45_1.csv`]
+| Operating leases | Unnamed: 1 | Other non-current assets | Unnamed: 3 | $ | 10,234 | $.1 | 10,661 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Finance leases |  | Property, plant and equipment, net |  | 1,069 |  | 1,015 |  |
+| Total right-of-use assets |  |  |  | $ | 11,303 | $ | 11,676 |
+|  |  |  |  |  |  |  |  |
+| Lease liabilities: |  |  |  |  |  |  |  |
+| Operating leases |  | Other current liabilities |  | $ | 1,488 | $ | 1,410 |
+|  |  | Other non-current liabilities |  | 10,046 |  | 10,408 |  |
+| Finance leases |  | Other current liabilities |  | 144 |  | 165 |  |
+|  |  | Other non-current liabilities |  | 752 |  | 859 |  |
+| Total lease liabilities |  |  |  | $ | 12,430 | $ | 12,842 |
 
 
 ### Note 8 – Leases
@@ -430,14 +768,35 @@ Note 8 – Leases The Company has lease arrangements for certain equipment and f
 
 ## Page 46
 
+| Proceeds from/(Repayments of) commercial paper, net | $ | 3,960 | Unnamed: 3 | $.1 | (1,333) | Unnamed: 6 | $.2 | 5,264 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |
+| Maturities greater than 90 days: |  |  |  |  |  |  |  |  |
+| Proceeds from commercial paper | — |  |  | — |  |  | 5,948 |  |
+| Repayments of commercial paper | — |  |  | (2,645) |  |  | (7,257) |  |
+| Proceeds from/(Repayments of) commercial paper, net | — |  |  | (2,645) |  |  | (1,309) |  |
+|  |  |  |  |  |  |  |  |  |
+| Total proceeds from/(repayments of) commercial paper, net | $ | 3,960 |  | $ | (3,978) |  | $ | 3,955 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p46_1.csv`]
+| Proceeds from/(Repayments of) commercial paper, net | $ | 3,960 | Unnamed: 3 | $.1 | (1,333) | Unnamed: 6 | $.2 | 5,264 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |
+| Maturities greater than 90 days: |  |  |  |  |  |  |  |  |
+| Proceeds from commercial paper | — |  |  | — |  |  | 5,948 |  |
+| Repayments of commercial paper | — |  |  | (2,645) |  |  | (7,257) |  |
+| Proceeds from/(Repayments of) commercial paper, net | — |  |  | (2,645) |  |  | (1,309) |  |
+|  |  |  |  |  |  |  |  |  |
+| Total proceeds from/(repayments of) commercial paper, net | $ | 3,960 |  | $ | (3,978) |  | $ | 3,955 |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p46_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p46_1.csv`]
+| Proceeds from/(Repayments of) commercial paper, net | $ | 3,960 | Unnamed: 3 | $.1 | (1,333) | Unnamed: 6 | $.2 | 5,264 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |
+| Maturities greater than 90 days: |  |  |  |  |  |  |  |  |
+| Proceeds from commercial paper | — |  |  | — |  |  | 5,948 |  |
+| Repayments of commercial paper | — |  |  | (2,645) |  |  | (7,257) |  |
+| Proceeds from/(Repayments of) commercial paper, net | — |  |  | (2,645) |  |  | (1,309) |  |
+|  |  |  |  |  |  |  |  |  |
+| Total proceeds from/(repayments of) commercial paper, net | $ | 3,960 |  | $ | (3,978) |  | $ | 3,955 |
 
 
 ### Note 9 – Debt
@@ -447,8 +806,10 @@ Note 9 – Debt Commercial Paper The Company issues unsecured short-term promiss
 
 ## Page 47
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p47_1.csv`]
+| Common stock repurchased | (499,372) | Unnamed: 2 | (471,419) | Unnamed: 4 | (568,589) |
+| --- | --- | --- | --- | --- | --- |
+| Common stock issued, net of shares withheld for employee taxes | 66,097 |  | 78,055 |  | 85,228 |
+| Common stock outstanding, ending balances | 15,116,786 |  | 15,550,061 |  | 15,943,425 |
 
 
 ### Note 10 – Shareholders’ Equity
@@ -458,14 +819,47 @@ As of September 28, 2024 and September 30, 2023, the fair value of the Company�
 
 ## Page 48
 
+| RSUs granted | 91,674 | Unnamed: 2 | $ | 150.70 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RSUs vested | (115,861) |  | $ | 72.12 |  |  |  |
+| RSUs canceled | (14,739) |  | $ | 99.77 |  |  |  |
+| Balance as of September 24, 2022 | 201,501 |  | $ | 109.48 |  |  |  |
+| RSUs granted | 88,768 |  | $ | 150.87 |  |  |  |
+| RSUs vested | (101,878) |  | $ | 97.31 |  |  |  |
+| RSUs canceled | (8,144) |  | $ | 127.98 |  |  |  |
+| Balance as of September 30, 2023 | 180,247 |  | $ | 135.91 |  |  |  |
+| RSUs granted | 80,456 |  | $ | 173.78 |  |  |  |
+| RSUs vested | (87,633) |  | $ | 127.59 |  |  |  |
+| RSUs canceled | (9,744) |  | $ | 140.8 |  |  |  |
+| Balance as of September 28, 2024 | 163,326 |  | $ | 158.73 |  | $ | 37,204 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p48_1.csv`]
+| RSUs granted | 91,674 | Unnamed: 2 | $ | 150.70 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RSUs vested | (115,861) |  | $ | 72.12 |  |  |  |
+| RSUs canceled | (14,739) |  | $ | 99.77 |  |  |  |
+| Balance as of September 24, 2022 | 201,501 |  | $ | 109.48 |  |  |  |
+| RSUs granted | 88,768 |  | $ | 150.87 |  |  |  |
+| RSUs vested | (101,878) |  | $ | 97.31 |  |  |  |
+| RSUs canceled | (8,144) |  | $ | 127.98 |  |  |  |
+| Balance as of September 30, 2023 | 180,247 |  | $ | 135.91 |  |  |  |
+| RSUs granted | 80,456 |  | $ | 173.78 |  |  |  |
+| RSUs vested | (87,633) |  | $ | 127.59 |  |  |  |
+| RSUs canceled | (9,744) |  | $ | 140.8 |  |  |  |
+| Balance as of September 28, 2024 | 163,326 |  | $ | 158.73 |  | $ | 37,204 |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p48_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p48_1.csv`]
+| RSUs granted | 91,674 | Unnamed: 2 | $ | 150.70 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RSUs vested | (115,861) |  | $ | 72.12 |  |  |  |
+| RSUs canceled | (14,739) |  | $ | 99.77 |  |  |  |
+| Balance as of September 24, 2022 | 201,501 |  | $ | 109.48 |  |  |  |
+| RSUs granted | 88,768 |  | $ | 150.87 |  |  |  |
+| RSUs vested | (101,878) |  | $ | 97.31 |  |  |  |
+| RSUs canceled | (8,144) |  | $ | 127.98 |  |  |  |
+| Balance as of September 30, 2023 | 180,247 |  | $ | 135.91 |  |  |  |
+| RSUs granted | 80,456 |  | $ | 173.78 |  |  |  |
+| RSUs vested | (87,633) |  | $ | 127.59 |  |  |  |
+| RSUs canceled | (9,744) |  | $ | 140.8 |  |  |  |
+| Balance as of September 28, 2024 | 163,326 |  | $ | 158.73 |  | $ | 37,204 |
 
 
 ### Restricted Stock Units
@@ -480,17 +874,85 @@ Contingencies The Company is subject to various legal proceedings and claims tha
 
 ## Page 50
 
+| Net sales | $ | 167,045 | Unnamed: 3 | $.1 | 162,560 | Unnamed: 6 | $.2 | 169,658 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operating income | $ | 67,656 |  | $ | 60,508 |  | $ | 62,683 |
+|  |  |  |  |  |  |  |  |  |
+| Europe: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 101,328 |  | $ | 94,294 |  | $ | 95,118 |
+| Operating income | $ | 41,790 |  | $ | 36,098 |  | $ | 35,233 |
+|  |  |  |  |  |  |  |  |  |
+| Greater China: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 66,952 |  | $ | 72,559 |  | $ | 74,200 |
+| Operating income | $ | 27,082 |  | $ | 30,328 |  | $ | 31,153 |
+|  |  |  |  |  |  |  |  |  |
+| Japan: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 25,052 |  | $ | 24,257 |  | $ | 25,977 |
+| Operating income | $ | 12,454 |  | $ | 11,888 |  | $ | 12,257 |
+|  |  |  |  |  |  |  |  |  |
+| Rest of Asia Pacific: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 30,658 |  | $ | 29,615 |  | $ | 29,375 |
+| Operating income | $ | 13,062 |  | $ | 12,066 |  | $ | 11,569 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p50_1.csv`]
+| Net sales | $ | 167,045 | Unnamed: 3 | $.1 | 162,560 | Unnamed: 6 | $.2 | 169,658 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operating income | $ | 67,656 |  | $ | 60,508 |  | $ | 62,683 |
+|  |  |  |  |  |  |  |  |  |
+| Europe: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 101,328 |  | $ | 94,294 |  | $ | 95,118 |
+| Operating income | $ | 41,790 |  | $ | 36,098 |  | $ | 35,233 |
+|  |  |  |  |  |  |  |  |  |
+| Greater China: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 66,952 |  | $ | 72,559 |  | $ | 74,200 |
+| Operating income | $ | 27,082 |  | $ | 30,328 |  | $ | 31,153 |
+|  |  |  |  |  |  |  |  |  |
+| Japan: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 25,052 |  | $ | 24,257 |  | $ | 25,977 |
+| Operating income | $ | 12,454 |  | $ | 11,888 |  | $ | 12,257 |
+|  |  |  |  |  |  |  |  |  |
+| Rest of Asia Pacific: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 30,658 |  | $ | 29,615 |  | $ | 29,375 |
+| Operating income | $ | 13,062 |  | $ | 12,066 |  | $ | 11,569 |
 
+| Net sales | $ | 167,045 | Unnamed: 3 | $.1 | 162,560 | Unnamed: 6 | $.2 | 169,658 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operating income | $ | 67,656 |  | $ | 60,508 |  | $ | 62,683 |
+|  |  |  |  |  |  |  |  |  |
+| Europe: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 101,328 |  | $ | 94,294 |  | $ | 95,118 |
+| Operating income | $ | 41,790 |  | $ | 36,098 |  | $ | 35,233 |
+|  |  |  |  |  |  |  |  |  |
+| Greater China: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 66,952 |  | $ | 72,559 |  | $ | 74,200 |
+| Operating income | $ | 27,082 |  | $ | 30,328 |  | $ | 31,153 |
+|  |  |  |  |  |  |  |  |  |
+| Japan: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 25,052 |  | $ | 24,257 |  | $ | 25,977 |
+| Operating income | $ | 12,454 |  | $ | 11,888 |  | $ | 12,257 |
+|  |  |  |  |  |  |  |  |  |
+| Rest of Asia Pacific: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 30,658 |  | $ | 29,615 |  | $ | 29,375 |
+| Operating income | $ | 13,062 |  | $ | 12,066 |  | $ | 11,569 |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p50_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p50_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p50_1.csv`]
+| Net sales | $ | 167,045 | Unnamed: 3 | $.1 | 162,560 | Unnamed: 6 | $.2 | 169,658 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Operating income | $ | 67,656 |  | $ | 60,508 |  | $ | 62,683 |
+|  |  |  |  |  |  |  |  |  |
+| Europe: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 101,328 |  | $ | 94,294 |  | $ | 95,118 |
+| Operating income | $ | 41,790 |  | $ | 36,098 |  | $ | 35,233 |
+|  |  |  |  |  |  |  |  |  |
+| Greater China: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 66,952 |  | $ | 72,559 |  | $ | 74,200 |
+| Operating income | $ | 27,082 |  | $ | 30,328 |  | $ | 31,153 |
+|  |  |  |  |  |  |  |  |  |
+| Japan: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 25,052 |  | $ | 24,257 |  | $ | 25,977 |
+| Operating income | $ | 12,454 |  | $ | 11,888 |  | $ | 12,257 |
+|  |  |  |  |  |  |  |  |  |
+| Rest of Asia Pacific: |  |  |  |  |  |  |  |  |
+| Net sales | $ | 30,658 |  | $ | 29,615 |  | $ | 29,375 |
+| Operating income | $ | 13,062 |  | $ | 12,066 |  | $ | 11,569 |
 
 
 ### 2024 2023 2022
@@ -540,8 +1002,13 @@ Item 9B. Other Information Insider Trading Arrangements On August 27, 2024, Deir
 
 ## Page 56
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p56_1.csv`]
+| Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 | Unnamed: 1 | 30 |
+| --- | --- | --- |
+| Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023 |  |  |
+| Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 |  | 32.0 |
+| Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022 |  |  |
+| Notes to Consolidated Financial Statements |  | 34.0 |
+| Reports of Independent Registered Public Accounting Firm* |  |  |
 
 
 ### Item 15. Exhibit and Financial Statement Schedules
@@ -596,14 +1063,20 @@ Any shareholders’ meeting may be adjourned from time to time by the vote of a 
 
 ## Page 63
 
+| Unnamed: 0 | We issued €1,000,000,000 aggregate principal amount of the 0.000% 2025 Notes on November 15, 2019. The maturity date of the 0.000% 2025 Notes |
+| --- | --- |
+| is November 15, 2025, and interest at a rate of 0.000% per annum is paid annually on November 15 of each year, beginning on November 15, 2020, and on the |  |
+| maturity date. As of |  |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p63_1.csv`]
+| Unnamed: 0 | We issued €1,000,000,000 aggregate principal amount of the 0.000% 2025 Notes on November 15, 2019. The maturity date of the 0.000% 2025 Notes |
+| --- | --- |
+| is November 15, 2025, and interest at a rate of 0.000% per annum is paid annually on November 15 of each year, beginning on November 15, 2020, and on the |  |
+| maturity date. As of |  |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p63_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p63_1.csv`]
+| Unnamed: 0 | We issued €1,000,000,000 aggregate principal amount of the 0.000% 2025 Notes on November 15, 2019. The maturity date of the 0.000% 2025 Notes |
+| --- | --- |
+| is November 15, 2025, and interest at a rate of 0.000% per annum is paid annually on November 15 of each year, beginning on November 15, 2020, and on the |  |
+| maturity date. As of |  |
 
 
 ### DESCRIPTION OF DEBT SECURITIES
@@ -613,17 +1086,21 @@ DESCRIPTION OF DEBT SECURITIES The following description of the Notes is a summa
 
 ## Page 64
 
+| 31, 2029, and interest at a rate of 3.050% per annum is paid semi-annually on January 31 and July 31 of each year, beginning on January 31, 2016, and on the |
+| --- |
+| maturity date. As of |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p64_1.csv`]
+| 31, 2029, and interest at a rate of 3.050% per annum is paid semi-annually on January 31 and July 31 of each year, beginning on January 31, 2016, and on the |
+| --- |
+| maturity date. As of |
 
+| 31, 2029, and interest at a rate of 3.050% per annum is paid semi-annually on January 31 and July 31 of each year, beginning on January 31, 2016, and on the |
+| --- |
+| maturity date. As of |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p64_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p64_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p64_1.csv`]
+| 31, 2029, and interest at a rate of 3.050% per annum is paid semi-annually on January 31 and July 31 of each year, beginning on January 31, 2016, and on the |
+| --- |
+| maturity date. As of |
 
 
 ### The 3.050% 2029 Notes
@@ -633,100 +1110,139 @@ The 3.050% 2029 Notes We issued £750,000,000 aggregate principal amount of the 
 
 ## Page 65
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p65_1.csv`]
+| Unnamed: 0 | The terms of the Notes state that all payments of principal and interest in respect of the Notes will be made free and clear of, and without deduction or |
+| --- | --- |
+| withholding for or on account of any present or future taxes, duties, assessments or other governmental charges of whatsoever nature required to be deducted |  |
+| or withheld by the United States or any political subdivision or taxing authority of or in the United States, unless such withholding or deduction is required by law. |  |
 
 the European Monetary Union that have adopted the euro as their currency or for the settlement of transactions by public institutions of or within the international banking community, then all payments in respect of the 3.050% 2029 Notes and the 2042 Notes will be made in U.S. dollars until the pound sterling or euro, as the case may be, is again available to the Company or so used. The amount payable on any date in pounds sterling or, in the event such Notes are redenominated into euro, euro will be converted into U.S. dollars at the rate mandated by the U.S. Federal Reserve Board as of the close of business on the second Business Day prior to the relevant payment date or, in the event the U.S. Federal Reserve Board has not mandated a rate of conversion, on the basis of the most recent U.S. dollar/pounds sterling or, in the event the Notes are redenominated into euro, the most recent U.S. dollar/euro exchange rate published in The Wall Street Journal on or prior to the second Business Day prior to the relevant payment date. Any payment in respect of the 3.050% 2029 Notes and the 2042 Notes so made in U.S. dollars will not constitute an event of default under such Notes or the 2013 Indenture. With respect to the 3.050% 2029 Notes and the 2042 Notes, “Business Day” means any day which is not a day on which banking institutions in The City of New York or London or the relevant place of payment are authorized or required by law, regulation or executive order to close. Payment of Additional Amounts The terms of the Notes state that all payments of principal and interest in respect of the Notes will be made free and clear of, and without deduction or withholding for or on account of any present or future taxes, duties, assessments or other governmental charges of whatsoever nature required to be deducted or withheld by the United States or any political subdivision or taxing authority of or in the United States, unless such withholding or deduction is required by law. All of the Notes also contain a covenant substantially similar to the following: The Company will, subject to the exceptions and limitations set forth below, pay as additional interest on the Notes such additional amounts (“Additional Amounts”) as are necessary in order that the net payment by the Company or the paying agent of the Company for the applicable Notes (“Paying Agent”) of the principal of and interest on the Notes to a holder who is not a United States person (as defined below), after withholding or deduction for any present or future tax, assessment or other governmental charge (“Tax”) imposed by the United States or a taxing authority in the United States, will not be less than the amount provided in the Notes to be then due and payable; provided, however, that the foregoing obligation to pay Additional Amounts shall not apply: (1) to any Tax that is imposed by reason of the holder (or the beneficial owner for whose benefit such holder holds the Notes), or a fiduciary, settlor, beneficiary, member or shareholder of the holder if the holder is an estate, trust, partnership or corporation, or a person holding a power over an estate or trust administered by a fiduciary holder, being considered as: (a) being or having been engaged in a trade or business in the United States or having or having had a permanent establishment in the United States; (b) having a current or former connection with the United States (other than a connection arising solely as a result of the ownership of the Notes, the receipt of any payment or the enforcement of any rights hereunder), including being or having been a citizen or resident of the United States; (c) being or having been a personal holding company, a passive foreign investment company or a controlled foreign corporation for U.S. federal income tax purposes or a corporation that has accumulated earnings to avoid U.S. federal income tax; (d) being or having been a “10-percent shareholder” of the Company as defined in Section 871(h)(3) of the Internal Revenue Code of 1986, as amended (the “Code”); (e) being a controlled foreign corporation that is related to the Company within the meaning of Section 864(d)(4) of the Code; or (f) being a bank receiving payments on an extension of credit made pursuant to a loan agreement entered into in the ordinary course of its trade or business; 5
 
 
 ## Page 66
 
+| tax purposes, a corporation, partnership or other entity created or organized in or under the laws of the United States, any state of the United States or the |
+| --- |
+| District of Columbia (other than a partnership that is not treated as a United States person under any applicable Treasury regulations), or any estate or trust the |
+| income of which is subject to U.S. federal income taxation regardless of its source. |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p66_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p66_1.csv`]
+| tax purposes, a corporation, partnership or other entity created or organized in or under the laws of the United States, any state of the United States or the |
+| --- |
+| District of Columbia (other than a partnership that is not treated as a United States person under any applicable Treasury regulations), or any estate or trust the |
+| income of which is subject to U.S. federal income taxation regardless of its source. |
 
 (2) to any holder that is not the sole beneficial owner of the Notes, or a portion of the Notes, or that is a fiduciary, partnership or limited liability company, but only to the extent that a beneficial owner with respect to the holder, a beneficiary or settlor with respect to the fiduciary, or a beneficial owner or member of the partnership or limited liability company would not have been entitled to the payment of an additional amount had the beneficiary, settlor, beneficial owner or member received directly its beneficial or distributive share of the payment; (3) to any Tax that would not have been imposed but for the failure of the holder or any other person to comply with certification, identification or information reporting requirements concerning the nationality, residence, identity or connection with the United States of the holder or beneficial owner of the Notes, if compliance is required by statute, by regulation of the United States or any taxing authority therein or by an applicable income tax treaty to which the United States is a party as a precondition to exemption from such Tax (including, but not limited to, the requirement to provide Internal Revenue Service Forms W-8BEN, W-8BEN-E, W-8ECI, or any subsequent versions thereof or successor thereto, and any documentation requirement under an applicable income tax treaty); (4) to any Tax that is imposed otherwise than by withholding by the Company or a Paying Agent from the payment; (5) to any Tax that would not have been imposed but for a change in law, regulation, or administrative or judicial interpretation that becomes effective more than 10 days after the payment becomes due or is duly provided for, whichever occurs later; (6) to any estate, inheritance, gift, sales, excise, transfer, wealth, capital gains or personal property or similar Tax; (7) to any Tax required to be withheld by any paying agent from any payment of principal of or interest on any Note, if such payment can be made without such withholding by at least one other paying agent; (8) to any Tax that would not have been imposed but for the presentation by the holder of any Note, where presentation is required, for payment on a date more than 30 days after the date on which payment became due and payable or the date on which payment thereof is duly provided for, whichever occurs later; (9) to any Tax imposed under Sections 1471 through 1474 of the Code (or any amended or successor provisions), any current or future regulations or official interpretations thereof, any agreement entered into pursuant to Section 1471(b) of the Code, or any fiscal or regulatory legislation, rules or practices adopted pursuant to any intergovernmental agreement entered into in connection with the implementation of such sections of the Code; or (10)in the case of any combination of items (1) through (9) above. The Notes are subject in all cases to any tax, fiscal or other law or regulation or administrative or judicial interpretation applicable to the Notes. Except as specifically provided under this heading “—Payment of Additional Amounts,” the Company will not be required to make any payment for any Tax imposed by any government or a political subdivision or taxing authority of or in any government or political subdivision. As used under “—Payment of Additional Amounts” and under “—Redemption for Tax Reasons,” the term “United States” means the United States of America (including the states and the District of Columbia and any political subdivision thereof), and the term “United States person” means any individual who is a citizen or resident of the United States for U.S. federal income tax purposes, a corporation, partnership or other entity created or organized in or under the laws of the United States, any state of the United States or the District of Columbia (other than a partnership that is not treated as a United States person under any applicable Treasury regulations), or any estate or trust the income of which is subject to U.S. federal income taxation regardless of its source. Redemption for Tax Reasons If, as a result of any change in, or amendment to, or, in the case of the 0.000% 2025 Notes and the 2031 Notes, introduction of, the laws (or any regulations or rulings promulgated under the laws) of the United States (or any political subdivision or taxing authority of or in the United States), or any change in, or amendments to, an official position regarding the application or interpretation of such laws, regulations or rulings, which change or amendment is 6
 
 
 ## Page 67
 
+| counsel selected by us, will become obligated to pay additional amounts as described above under the heading “Payments of Additional Amounts” with respect |
+| --- |
+| to a series of the Notes, then we may at our option redeem, in whole, but not in part |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p67_1.csv`]
+| counsel selected by us, will become obligated to pay additional amounts as described above under the heading “Payments of Additional Amounts” with respect |
+| --- |
+| to a series of the Notes, then we may at our option redeem, in whole, but not in part |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p67_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p67_1.csv`]
+| counsel selected by us, will become obligated to pay additional amounts as described above under the heading “Payments of Additional Amounts” with respect |
+| --- |
+| to a series of the Notes, then we may at our option redeem, in whole, but not in part |
 
 announced or becomes effective on or after the date of the applicable prospectus supplement, we become, or based upon a written opinion of independent counsel selected by us, will become obligated to pay additional amounts as described above under the heading “Payments of Additional Amounts” with respect to a series of the Notes, then we may at our option redeem, in whole, but not in part, in the case of the 2026 Notes, the 2027 Notes, the 3.050% 2029 Notes and the 2042 Notes, the Notes of such series on not less than 30 nor more than 60 days’ prior notice, in the case of the 0.875% 2025 Notes and the 1.375% 2029 Notes, the Notes of such series on not less than 15 nor more than 60 days’ notice, and in the case of the 0.000% 2025 Notes and the 2031 Notes, the Notes of such series on not less than 10 nor more than 60 days’ prior notice, in each case at a redemption price equal to 100% of their principal amount, together with interest accrued but unpaid on those Notes to (and, in the case of the 0.000% 2025 Notes and the 2031 Notes, but not including) the date fixed for redemption. Optional Redemption We may redeem the 2026 Notes, the 2027 Notes, the 3.050% 2029 Notes and the 2042 Notes at our option, at any time in whole or from time to time in part, at a redemption price equal to the greater of: • 100% of the principal amount of the Notes to be redeemed; or • the sum of the present values of the remaining scheduled payments of principal and interest thereon (not including any portion of such payments of interest accrued as of the date of redemption), discounted to the date of redemption on an annual basis (ACTUAL/ACTUAL (ICMA)) at the applicable Comparable Government Bond Rate (as defined below), plus 10 basis points in the case of the 2026 Notes, plus 15 basis points in the case of the 3.050% 2029 Notes and the 2042 Notes and plus 20 basis points in the case of the 2027 Notes. We may redeem the 0.000% 2025 Notes, the 0.875% 2025 Notes, the 1.375% 2029 Notes and the 2031 Notes at our option, at any time in whole or from time to time in part, prior to the applicable Par Call Date at a redemption price equal to the greater of: • 100% of the principal amount of the Notes to be redeemed; or • the sum of the present values of the remaining scheduled payments of principal and interest thereon assuming that the Notes matured on the applicable Par Call Date (not including any portion of such payments of interest accrued as of the date of redemption), discounted to the date of redemption on an annual basis (ACTUAL/ACTUAL (ICMA)) at the applicable Comparable Government Bond Rate (as defined below), plus 10 basis points in the case of the 0.000% 2025 Notes, plus 15 basis points in the case of the 0.875% 2025 Notes and the 2031 Notes, and 20 basis points in the case of the 2029 Notes. “Par Call Date” means (i) with respect to the 0.000% 2025 Notes, August 15, 2025 (three months prior to the maturity date of the 0.000% 2025 Notes), (ii) with respect to the 0.875% 2025 Notes, February 24, 2025 (three months prior to the maturity date of the 0.875% 2025 Notes), (iii) with respect to the 1.375% 2029 Notes, February 24, 2029 (three months prior to the maturity date of 1.375% 2029 Notes) and (iv) with respect to the 2031 Notes, August 15, 2031 (three months prior to the maturity of the 2031 Notes). If any of the 0.000% 2025 Notes, the 0.875% 2025 Notes, the 1.375% 2029 Notes or the 2031 Notes are redeemed on or after the applicable Par Call Date, the redemption price for such Notes will equal 100% of the principal amount of the Notes being redeemed. In each case upon redemption of the Notes, we will pay accrued and unpaid interest on the principal amount being redeemed to, but excluding, the date of redemption. Installments of interest on Notes being redeemed that are due and payable on interest payment dates falling on or prior to a redemption date shall be payable on the interest payment date to the holders as of the close of business on the relevant regular record date according to the Notes and the applicable Indenture. “Comparable Government Bond” means, in relation to any Comparable Government Bond Rate calculation for the 2026 Notes and the 2027 Notes, at the discretion of an independent investment bank selected by us, a German government bond whose maturity is closest to the maturity of the Notes being redeemed, or if such independent investment bank in its discretion determines that such similar bond is not in issue, such other German government bond as such independent investment bank may, with the advice of three brokers of, and/or market 7
 
 
 ## Page 68
 
+| 2025 Notes, the 1.375% 2029 Notes and the 2031 Notes, at the discretion of an independent investment bank selected by us, a German government bond |
+| --- |
+| whose maturity is closest to the applicable Par Call Date of the Notes being redeemed, or if such independent investment bank in its discretion determines that |
+| such similar bond is not in issue, such other German government bond as such independent investment bank may, with the advice of three brokers of, and/or |
+| market makers in, German government bonds selected by us, determine to be appropriate for determining the Comparable Government Bond Rate. |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p68_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p68_1.csv`]
+| 2025 Notes, the 1.375% 2029 Notes and the 2031 Notes, at the discretion of an independent investment bank selected by us, a German government bond |
+| --- |
+| whose maturity is closest to the applicable Par Call Date of the Notes being redeemed, or if such independent investment bank in its discretion determines that |
+| such similar bond is not in issue, such other German government bond as such independent investment bank may, with the advice of three brokers of, and/or |
+| market makers in, German government bonds selected by us, determine to be appropriate for determining the Comparable Government Bond Rate. |
 
 makers in, German government bonds selected by us, determine to be appropriate for determining the Comparable Government Bond Rate. “Comparable Government Bond” means, in relation to any Comparable Government Bond Rate calculation for the 3.050% 2029 Notes and the 2042 Notes, at the discretion of an independent investment bank selected by us, a United Kingdom government bond whose maturity is closest to the maturity of the Notes being redeemed, or if such independent investment bank in its discretion determines that such similar bond is not in issue, such other United Kingdom government bond as such independent investment bank may, with the advice of three brokers of, and/or market makers in, United Kingdom government bonds selected by us, determine to be appropriate for determining the Comparable Government Bond Rate. “Comparable Government Bond” means, in relation to any Comparable Government Bond Rate calculation for the 0.000% 2025 Notes, the 0.875% 2025 Notes, the 1.375% 2029 Notes and the 2031 Notes, at the discretion of an independent investment bank selected by us, a German government bond whose maturity is closest to the applicable Par Call Date of the Notes being redeemed, or if such independent investment bank in its discretion determines that such similar bond is not in issue, such other German government bond as such independent investment bank may, with the advice of three brokers of, and/or market makers in, German government bonds selected by us, determine to be appropriate for determining the Comparable Government Bond Rate. “Comparable Government Bond Rate” means the price, expressed as a percentage (rounded to three decimal places, with 0.0005 being rounded upwards), at which the gross redemption yield on the Notes, if they were to be purchased at such price on the third business day prior to the date fixed for redemption, would be equal to the gross redemption yield on such business day of the Comparable Government Bond on the basis of the middle market price of the Comparable Government Bond prevailing at 11:00 a.m. (London time) on such business day as determined by an independent investment bank selected by us. Covenants The Indentures set forth limited covenants that apply to the Notes. However, these covenants do not, among other things: • limit the amount of indebtedness or lease obligations that may be incurred by us and our subsidiaries; • limit our ability or that of our subsidiaries to issue, assume or guarantee debt secured by liens; or • restrict us from paying dividends or making distributions on our capital stock or purchasing or redeeming our capital stock. Consolidation, Merger and Sale of Assets The Indentures provide that we may consolidate with or merge with or into any other person, and may sell, transfer, or lease or convey all or substantially all of our properties and assets to another person; provided that the following conditions are satisfied: • we are the continuing entity, or the resulting, surviving or transferee person (the “Successor”) is a person (if such person is not a corporation, then the Successor will include a corporate co-issuer of the debt securities) organized and existing under the laws of the United States of America, any state thereof or the District of Columbia and the Successor (if not us) will expressly assume, by supplemental indenture, all of our obligations under the debt securities and the applicable Indenture and, for each security that by its terms provides for conversion, provide for the right to convert such security in accordance with its terms; • immediately after giving effect to such transaction, no default or event of default under the applicable Indenture has occurred and is continuing; and • in the case of the 2013 Indenture, the trustee receives from us an officers’ certificate and an opinion of counsel that the transaction and such supplemental indenture, as the case may be, complies with the applicable provisions of the 2013 Indenture. 8
 
 
 ## Page 69
 
+| will be voluntary or involuntary or be effected by operation of law or pursuant to any judgment, decree or order of any court or any order, rule or regulation of an |
+| --- |
+| administrative or governmental body) with respect to the debt securities of any series: |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p69_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p69_1.csv`]
+| will be voluntary or involuntary or be effected by operation of law or pursuant to any judgment, decree or order of any court or any order, rule or regulation of an |
+| --- |
+| administrative or governmental body) with respect to the debt securities of any series: |
 
 If we consolidate or merge with or into any other person or sell, transfer, lease or convey all or substantially all of our properties and assets in accordance with the Indentures, the Successor will be substituted for us in the Indentures, with the same effect as if it had been an original party to the Indentures. As a result, the Successor may exercise our rights and powers under the Indentures, and we will be released from all our liabilities and obligations under the Indentures and under the debt securities. For purposes of this covenant, “person” means any individual, corporation, partnership, limited liability company, joint venture, association, joint-stock company, trust, unincorporated organization or government or any agency or political subdivision thereof or any other entity. Events of Default Each of the following events are defined in the Indentures as an “event of default” (whatever the reason for such event of default and whether or not it will be voluntary or involuntary or be effected by operation of law or pursuant to any judgment, decree or order of any court or any order, rule or regulation of any administrative or governmental body) with respect to the debt securities of any series: (1) default in the payment of any installment of interest on any debt securities of such series for 30 days after becoming due; (2) default in the payment of principal of or premium, if any, on any debt securities of such series when it becomes due and payable at its stated maturity, upon optional redemption, upon declaration or otherwise; (3) default in the performance, or breach, of any covenant or agreement of ours in the applicable Indenture with respect to the debt securities of such series (other than a covenant or agreement, a default in the performance of which or a breach of which is elsewhere in the applicable Indenture specifically dealt with or that has expressly been included in the applicable Indenture solely for the benefit of a series of debt securities other than such series), which continues for a period of 90 days after written notice to us by the trustee or to us and the trustee by the holders of, in the case of the 2013 Indenture, at least 25% in aggregate principal amount of the outstanding debt securities of that series, and in the case of the 2018 Indenture, at least 33% in aggregate principal amount of the outstanding debt securities of that series; (4) we, pursuant to or within the meaning of the Bankruptcy Law: • commence a voluntary case or proceeding; • consent to the entry of an order for relief against us in an involuntary case or proceeding; • consent to the appointment of a custodian of us or for all or substantially all of our property; • make a general assignment for the benefit of our creditors; • file a petition in bankruptcy or answer or consent seeking reorganization or relief; • consent to the filing of such petition or the appointment of or taking possession by a custodian; or • take any comparable action under any foreign laws relating to insolvency; (5) a court of competent jurisdiction enters an order or decree under any Bankruptcy Law that: • is for relief against us in an involuntary case, or adjudicates us insolvent or bankrupt; • appoints a custodian of us or for all or substantially all of our property; or • orders the winding-up or liquidation of us (or any similar relief is granted under any foreign laws); and the order or decree remains unstayed and in effect for 90 days (or, in the case of the 2018 Indenture, 90 consecutive days); or 9
 
 
 ## Page 70
 
+| Unnamed: 0 | If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, o |
+| --- | --- |
+| reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate princ |  |
+| amount of the outstanding debt securities of such series |  |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p70_1.csv`]
+| Unnamed: 0 | If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, o |
+| --- | --- |
+| reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate princ |  |
+| amount of the outstanding debt securities of such series |  |
 
+| Unnamed: 0 | If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, o |
+| --- | --- |
+| reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate princ |  |
+| amount of the outstanding debt securities of such series |  |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p70_1.csv`]
+| Unnamed: 0 | If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, o |
+| --- | --- |
+| reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate princ |  |
+| amount of the outstanding debt securities of such series |  |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p70_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p70_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p70_1.csv`]
+| Unnamed: 0 | If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, o |
+| --- | --- |
+| reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate princ |  |
+| amount of the outstanding debt securities of such series |  |
 
 (6) any other event of default provided with respect to debt securities of such series occurs. “Bankruptcy Law” means Title 11, United States Code or any similar federal or state or foreign law for the relief of debtors. “Custodian” means any custodian, receiver, trustee, assignee, liquidator or other similar official under any Bankruptcy Law. If an event of default with respect to debt securities of any series (other than an event of default relating to certain events of bankruptcy, insolvency, or reorganization of us) occurs and is continuing, the trustee by notice to us, or the holders of, in the case of the 2013 Indenture, at least 25% in aggregate principal amount of the outstanding debt securities of such series, and in the case of the 2018 Indenture, at least 33% in aggregate principal amount of the outstanding debt securities of such series, by notice to us and the trustee, may, and the trustee at the request of these holders will, declare the principal of and premium, if any, and accrued and unpaid interest on all the debt securities of such series to be due and payable. Upon such a declaration, such principal, premium and accrued and unpaid interest will be due and payable immediately. If an event of default relating to certain events of bankruptcy, insolvency, or reorganization of us occurs and is continuing, the principal of and premium, if any, and accrued and unpaid interest on the debt securities of such series will become and be immediately due and payable without any declaration or other act on the part of the trustee or any holders. The holders of not less than a majority in aggregate principal amount of the outstanding debt securities of any series may rescind a declaration of acceleration and its consequences, if we have deposited certain sums with the trustee and all events of default with respect to the debt securities of such series, other than the non-payment of the principal or interest which have become due solely by such acceleration, have been cured or waived, as provided in the Indentures. An event of default for a particular series of debt securities does not necessarily constitute an event of default for any other series of debt securities issued under the Indentures. We are required to furnish the trustee annually within 120 days after the end of our fiscal year a statement by one of our officers to the effect that, to the best knowledge of such officer, we are not in default in the fulfillment of any of our obligations under the applicable Indenture or, if there has been a default in the fulfillment of any such obligation, specifying each such default and the nature and status thereof. No holder of any debt securities of any series will have any right to institute any judicial or other proceeding with respect to the applicable Indenture, or for the appointment of a receiver or trustee, or for any other remedy unless: (1) an event of default has occurred and is continuing and such holder has given the trustee prior written notice of such continuing event of default with respect to the debt securities of such series; (2) in the case of the 2013 Indenture, the holders of not less than 25% of the aggregate principal amount of the outstanding debt securities of such series, and in the case of the 2018 Indenture, the holders of not less than 33% of the aggregate principal amount of the outstanding debt securities of such series have requested the trustee to institute proceedings in respect of such event of default; (3) the trustee has been offered indemnity reasonably satisfactory to it against its costs, expenses and liabilities in complying with such request; (4) the trustee has failed to institute proceedings 60 days after the receipt of such notice, request and offer of indemnity; and (5) no direction inconsistent with such written request has been given for 60 days by the holders of a majority in aggregate principal amount of the outstanding debt securities of such series. The holders of a majority in aggregate principal amount of outstanding debt securities of a series will have the right, subject to certain limitations, to direct the time, method and place of conducting any proceeding for any remedy available to the trustee with respect to the debt securities of that series or exercising any trust or power conferred to the trustee, and to waive certain defaults. Each of the Indentures provides that if an event of default occurs and is continuing, the trustee will exercise such of its rights and powers under such Indenture, and use the same degree of care and skill in their exercise, as a prudent person would exercise or use under the circumstances in 10
 
 
 ## Page 71
 
+| the conduct of such person’s own affairs. Subject to such provisions, the trustee will be under no obligation to exercise any of its rights or powers under the |
+| --- |
+| applicable Indenture at the request of any of the holders of the debt securities of a series unless they will have offered to the trustee security or indemnity |
+| satisfactory to the trustee against the costs, expenses and liabilities which might be incurred by it in compliance with such request. |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p71_1.csv`]
+| the conduct of such person’s own affairs. Subject to such provisions, the trustee will be under no obligation to exercise any of its rights or powers under the |
+| --- |
+| applicable Indenture at the request of any of the holders of the debt securities of a series unless they will have offered to the trustee security or indemnity |
+| satisfactory to the trustee against the costs, expenses and liabilities which might be incurred by it in compliance with such request. |
 
+| the conduct of such person’s own affairs. Subject to such provisions, the trustee will be under no obligation to exercise any of its rights or powers under the |
+| --- |
+| applicable Indenture at the request of any of the holders of the debt securities of a series unless they will have offered to the trustee security or indemnity |
+| satisfactory to the trustee against the costs, expenses and liabilities which might be incurred by it in compliance with such request. |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p71_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p71_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p71_1.csv`]
+| the conduct of such person’s own affairs. Subject to such provisions, the trustee will be under no obligation to exercise any of its rights or powers under the |
+| --- |
+| applicable Indenture at the request of any of the holders of the debt securities of a series unless they will have offered to the trustee security or indemnity |
+| satisfactory to the trustee against the costs, expenses and liabilities which might be incurred by it in compliance with such request. |
 
 the conduct of such person’s own affairs. Subject to such provisions, the trustee will be under no obligation to exercise any of its rights or powers under the applicable Indenture at the request of any of the holders of the debt securities of a series unless they will have offered to the trustee security or indemnity satisfactory to the trustee against the costs, expenses and liabilities which might be incurred by it in compliance with such request. Notwithstanding the foregoing, the holder of any debt security will have an absolute and unconditional right to receive payment of the principal of and premium, if any, and interest on that debt security on or after the due dates expressed in that debt security and to institute suit for the enforcement of payment. Modification and Waivers Modification and amendments of the Indentures and the Notes may be made by us and the trustee with the consent of the holders of not less than a majority in aggregate principal amount of the outstanding series of Notes affected thereby; provided, however, that no such modification or amendment may, without the consent of the holder of each outstanding Note of that series affected thereby: • change the stated maturity of the principal of, or installment of interest on, any Note; • reduce the principal amount of any Note or reduce the amount of the principal of any Note which would be due and payable upon a declaration of acceleration of the maturity thereof or reduce the rate of interest on any Note; • reduce any premium payable on the redemption of any Note or change the date on which any Note may or must be redeemed (in the case of the 2018 Indenture, it being understood that a change to any notice requirement with respect to such date shall not be deemed to be a change of such date); • change the coin or currency in which the principal of, premium, if any, or interest on any Note is payable; • impair the right of any holder to institute suit for the enforcement of any payment on or after the stated maturity of any Note (or, in the case of redemption, on or after the redemption date); • reduce the percentage in principal amount of the outstanding Notes, the consent of whose holders is required in order to take certain actions; • reduce the requirements for quorum or voting by holders of Notes in the applicable Indenture or the Note; • modify any of the provisions in the applicable Indenture regarding the waiver of past defaults and the waiver of certain covenants by the holders of Notes except to increase any percentage vote required or to provide that certain other provisions of the applicable Indenture cannot be modified or waived without the consent of the holder of each Notes affected thereby; • make any change that adversely affects the right to convert or exchange any debt security or decreases the conversion or exchange rate or increases the conversion price of any convertible or exchangeable debt security, unless such decrease or increase is permitted by the terms of the debt securities; or • modify any of the above provisions. We and the trustee may, without the consent of any holders, modify or amend the terms of the Indentures and any series of Notes with respect to the following: • to add to our covenants for the benefit of holders of all or any series of the Notes or to surrender any right or power conferred upon us; • to evidence the succession of another person to, and the assumption by the successor of our covenants, agreements and obligations under, the applicable Indenture pursuant to the covenant described above under the caption “Covenants—Consolidation, Merger and Sale of Assets”; • to add any additional events of default for the benefit of holders of all or any series of the Notes; 11
 
 
 ## Page 72
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p72_1.csv`]
+| Unnamed: 0 | The holders of at least a majority in aggregate principal amount of the outstanding Notes of any series may, on behalf of the holders of all Notes of tha |
+| --- | --- |
+| series, waive compliance by us with certain restrictive provisions of the Indentures. The holders of not less than a majority in aggregate principal amount of the |  |
+| outstanding Notes of a series may, on behalf of the holders of all Notes of that series, waive any past default and its consequences under the applicable |  |
+| Indenture with respect to the Notes of that series, except a default (1) in the payment of principal or premium, if any, or interest on Notes of that series or (2) in |  |
+| respect of a covenant or provision of the applicable Indenture that cannot be modified or amended without the consent of the holder of each Note of that series |  |
 
 
 ### • to secure the Notes pursuant to the covenants of the Indenture;
@@ -736,14 +1252,29 @@ the conduct of such person’s own affairs. Subject to such provisions, the trus
 
 ## Page 73
 
+| (except for, among other things, obligations to register the transfer or exchange of the Notes, to replace temporary or mutilated, destroyed, lost or stolen Notes, |
+| --- |
+| to maintain an office or agency with respect to the Notes and to hold moneys for payment in trust) (“legal defeasance”) or (2) to be released from our obligation |
+| to comply with the restrictive covenants under the applicable Indenture, and any omission to comply with such obligations will not constitute a default or an eve |
+| of default with respect to the Notes of a series and clauses (3) and (6) under the caption “Events of Default” above will no longer be applied (“covenant |
+| defeasance”). Legal defeasance or covenant defeasance, as the case may be, will be conditioned upon, among other things, the irrevocable deposit by us with |
+| the trustee, in trust, of an amount in U.S. dollars, or U.S. government obligations (as such term is modified below), or both, applicable to the Notes of that serie |
 
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p73_1.csv`]
+| (except for, among other things, obligations to register the transfer or exchange of the Notes, to replace temporary or mutilated, destroyed, lost or stolen Notes, |
+| --- |
+| to maintain an office or agency with respect to the Notes and to hold moneys for payment in trust) (“legal defeasance”) or (2) to be released from our obligation |
+| to comply with the restrictive covenants under the applicable Indenture, and any omission to comply with such obligations will not constitute a default or an eve |
+| of default with respect to the Notes of a series and clauses (3) and (6) under the caption “Events of Default” above will no longer be applied (“covenant |
+| defeasance”). Legal defeasance or covenant defeasance, as the case may be, will be conditioned upon, among other things, the irrevocable deposit by us with |
+| the trustee, in trust, of an amount in U.S. dollars, or U.S. government obligations (as such term is modified below), or both, applicable to the Notes of that serie |
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p73_1.csv`]
-
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p73_1.csv`]
+| (except for, among other things, obligations to register the transfer or exchange of the Notes, to replace temporary or mutilated, destroyed, lost or stolen Notes, |
+| --- |
+| to maintain an office or agency with respect to the Notes and to hold moneys for payment in trust) (“legal defeasance”) or (2) to be released from our obligation |
+| to comply with the restrictive covenants under the applicable Indenture, and any omission to comply with such obligations will not constitute a default or an eve |
+| of default with respect to the Notes of a series and clauses (3) and (6) under the caption “Events of Default” above will no longer be applied (“covenant |
+| defeasance”). Legal defeasance or covenant defeasance, as the case may be, will be conditioned upon, among other things, the irrevocable deposit by us with |
+| the trustee, in trust, of an amount in U.S. dollars, or U.S. government obligations (as such term is modified below), or both, applicable to the Notes of that serie |
 
 
 ### Discharge, Defeasance and Covenant Defeasance
@@ -753,8 +1284,10 @@ Discharge, Defeasance and Covenant Defeasance We may discharge certain obligatio
 
 ## Page 74
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p74_1.csv`]
+| The Bank of New York Mellon Trust Company, N.A. and its affiliates (“BNYM”). We may enter into similar or other banking relationships with BNYM in the future |
+| --- |
+| in the normal course of business. In addition, BNYM acts as trustee and as paying agent with respect to other debt securities issued by us, and may do so for |
+| future issuances of debt securities by us as well. |
 
 
 ### Book-Entry and Settlement
@@ -974,7 +1507,7 @@ traded on a national securities exchange on the last trading day of the Performa
 
 ## Page 108
 
-![figure](data\parsed\Apple_SEA\figures\page_108\figure_1.png)
+![figure](data/parsed/Apple_SEA/figures/page_108/figure_1.png)
 
 
 ### Insider Trading Policy
@@ -997,8 +1530,13 @@ In addition to the above prohibitions, this policy includes important additional
 
 ## Page 111
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p111_1.csv`]
+| Fiscal Quarter | Trading Window Closed and
+Trading Restrictions Begin | Trading Restrictions End and Trading Window Opens |
+| --- | --- | --- |
+| 1st | December 1 | 24 hours after public disclosure of first-quarter results (typically early February) |
+| 2nd | March 1 | 24 hours after public disclosure of second-quarter results (typically early May) |
+| 3rd | June 1 | 24 hours after public disclosure of third-quarter results (typically early August) |
+| 4th | September 1 | 24 hours after public disclosure of year-end results (typically early November) |
 
 
 ### Restricted Trading Periods and Trading Windows
@@ -1021,8 +1559,24 @@ restrictions that apply to you under this policy; provided, however, that in all
 
 ## Page 114
 
-
-> [table: could not read `data\parsed\Apple_SEA\tables\table_p114_1.csv`]
+| Apple Asia LLC | Delaware, U.S. |
+| --- | --- |
+| Apple Canada Inc. | Canada |
+| Apple Computer Trading (Shanghai) Co., Ltd. | China |
+| Apple Distribution International Limited | Ireland |
+| Apple India Private Limited | India |
+| Apple Insurance Company, Inc. | Arizona, U.S. |
+| Apple Japan, Inc. | Japan |
+| Apple Korea Limited | South Korea |
+| Apple Operations International Limited | Ireland |
+| Apple Operations Limited | Ireland |
+| Apple Operations Mexico, S.A. de C.V. | Mexico |
+| Apple Pty Limited | Australia |
+| Apple Sales International Limited | Ireland |
+| Apple South Asia (Thailand) Limited | Thailand |
+| Apple Vietnam Limited Liability Company | Vietnam |
+| Braeburn Capital, Inc. | Nevada, U.S. |
+| iTunes K.K. | Japan |
 
 Exhibit 21.1 Subsidiaries of Apple Inc.* Jurisdiction of Incorporation Apple Asia Limited Hong Kong Apple Asia LLC Delaware, U.S. Apple Canada Inc. Canada Apple Computer Trading (Shanghai) Co., Ltd. China Apple Distribution International Limited Ireland Apple India Private Limited India Apple Insurance Company, Inc. Arizona, U.S. Apple Japan, Inc. Japan Apple Korea Limited South Korea Apple Operations International Limited Ireland Apple Operations Limited Ireland Apple Operations Mexico, S.A. de C.V. Mexico Apple Pty Limited Australia Apple Sales International Limited Ireland Apple South Asia (Thailand) Limited Thailand Apple Vietnam Limited Liability Company Vietnam Braeburn Capital, Inc. Nevada, U.S. iTunes K.K. Japan * Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Apple Inc. are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report.
 
@@ -1061,7 +1615,7 @@ Exhibit 32.1 CERTIFICATIONS OF CHIEF EXECUTIVE OFFICER AND CHIEF FINANCIAL OFFIC
 
 ## Page 119
 
-![figure](data\parsed\Apple_SEA\figures\page_119\figure_1.png)
+![figure](data/parsed/Apple_SEA/figures/page_119/figure_1.png)
 
 
 ### Rule 10D-1 Recovery Policy
