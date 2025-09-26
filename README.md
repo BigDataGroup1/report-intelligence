@@ -36,7 +36,7 @@ Together, these paths produce consistent artifacts (Markdown/HTML/JSON, CSV tabl
 ---
 
 ## Technologies
-Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (optional) LayoutParser
+Python • pdfplumber • Docling • Pandas • Tesseract OCR • DocumentAI 
 
 ---
 
@@ -100,10 +100,6 @@ Python • pdfplumber • Docling • Pandas • (optional) Tesseract OCR • (o
      - **Files:** `dvc.yaml`, `.dvc/`, updated `metrics/` and `plots/`
 
 ---
-
-
----
-
 ## Contributions
 
 Name | Contribution
